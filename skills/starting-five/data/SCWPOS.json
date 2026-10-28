@@ -1,0 +1,991 @@
+{
+ "scw": "SCWPOS",
+ "source": "Merged from SCWPG, SCWSG, SCWSF, SCWPF, SCWC0 (Topps app Base Tier 1 cards, 2026-10-28); plus 7 single-card screenshots (Jovic, Eason, Beal, Lopez, Maluach, Kessler, Konan Niederhauser) 2026-10-28",
+ "players": {
+  "Darius Acuff Jr.": {
+   "pos": "PG",
+   "team": "SAC"
+  },
+  "Jose Alvarado": {
+   "pos": "PG",
+   "team": "NYK"
+  },
+  "LaMelo Ball": {
+   "pos": "PG",
+   "team": "MIN"
+  },
+  "Anthony Black": {
+   "pos": "PG",
+   "team": "ORL"
+  },
+  "Mikel Brown Jr.": {
+   "pos": "PG",
+   "team": "BKN"
+  },
+  "Jalen Brunson": {
+   "pos": "PG",
+   "team": "NYK"
+  },
+  "Bub Carrington": {
+   "pos": "PG",
+   "team": "WAS"
+  },
+  "Stephon Castle": {
+   "pos": "PG",
+   "team": "SAS"
+  },
+  "Isaiah Collier": {
+   "pos": "PG",
+   "team": "UTA"
+  },
+  "Cade Cunningham": {
+   "pos": "PG",
+   "team": "DET"
+  },
+  "Stephen Curry": {
+   "pos": "PG",
+   "team": "GSW"
+  },
+  "Egor Demin": {
+   "pos": "PG",
+   "team": "BKN"
+  },
+  "Luka Doncic": {
+   "pos": "PG",
+   "team": "LAL"
+  },
+  "Jeremiah Fears": {
+   "pos": "PG",
+   "team": "NOP"
+  },
+  "Kingston Flemings": {
+   "pos": "PG",
+   "team": "ATL"
+  },
+  "De'Aaron Fox": {
+   "pos": "PG",
+   "team": "SAS"
+  },
+  "Darius Garland": {
+   "pos": "PG",
+   "team": "LAC"
+  },
+  "Keyonte George": {
+   "pos": "PG",
+   "team": "UTA"
+  },
+  "Josh Giddey": {
+   "pos": "PG",
+   "team": "CHI"
+  },
+  "Shai Gilgeous-Alexander": {
+   "pos": "PG",
+   "team": "OKC"
+  },
+  "Collin Gillespie": {
+   "pos": "PG",
+   "team": "PHX"
+  },
+  "Tyrese Haliburton": {
+   "pos": "PG",
+   "team": "IND"
+  },
+  "James Harden": {
+   "pos": "PG",
+   "team": "CLE"
+  },
+  "Scoot Henderson": {
+   "pos": "PG",
+   "team": "POR"
+  },
+  "Jrue Holiday": {
+   "pos": "PG",
+   "team": "POR"
+  },
+  "Daniss Jenkins": {
+   "pos": "PG",
+   "team": "DET"
+  },
+  "Tre Jones": {
+   "pos": "PG",
+   "team": "CHI"
+  },
+  "Damian Lillard": {
+   "pos": "PG",
+   "team": "POR"
+  },
+  "Tyrese Maxey": {
+   "pos": "PG",
+   "team": "PHI"
+  },
+  "Miles McBride": {
+   "pos": "PG",
+   "team": "NYK"
+  },
+  "CJ McCollum": {
+   "pos": "PG",
+   "team": "ATL"
+  },
+  "T.J. McConnell": {
+   "pos": "PG",
+   "team": "IND"
+  },
+  "Ajay Mitchell": {
+   "pos": "PG",
+   "team": "OKC"
+  },
+  "Davion Mitchell": {
+   "pos": "PG",
+   "team": "MIA"
+  },
+  "Ja Morant": {
+   "pos": "PG",
+   "team": "POR"
+  },
+  "Dejounte Murray": {
+   "pos": "PG",
+   "team": "NOP"
+  },
+  "Jamal Murray": {
+   "pos": "PG",
+   "team": "DEN"
+  },
+  "Ebuka Okorie": {
+   "pos": "PG",
+   "team": "DET"
+  },
+  "LaBaron Philon Jr.": {
+   "pos": "PG",
+   "team": "PHI"
+  },
+  "Payton Pritchard": {
+   "pos": "PG",
+   "team": "BOS"
+  },
+  "Immanuel Quickley": {
+   "pos": "PG",
+   "team": "TOR"
+  },
+  "Ryan Rollins": {
+   "pos": "PG",
+   "team": "MIL"
+  },
+  "Dennis Schroder": {
+   "pos": "PG",
+   "team": "CHA"
+  },
+  "Jamal Shead": {
+   "pos": "PG",
+   "team": "TOR"
+  },
+  "Reed Sheppard": {
+   "pos": "PG",
+   "team": "HOU"
+  },
+  "Jalen Suggs": {
+   "pos": "PG",
+   "team": "ORL"
+  },
+  "Nolan Traore": {
+   "pos": "PG",
+   "team": "BKN"
+  },
+  "Fred VanVleet": {
+   "pos": "PG",
+   "team": "HOU"
+  },
+  "Trae Young": {
+   "pos": "PG",
+   "team": "WAS"
+  },
+  "Nickeil Alexander-Walker": {
+   "pos": "SG",
+   "team": "ATL"
+  },
+  "Grayson Allen": {
+   "pos": "SG",
+   "team": "CHA"
+  },
+  "Desmond Bane": {
+   "pos": "SG",
+   "team": "ORL"
+  },
+  "Devin Booker": {
+   "pos": "SG",
+   "team": "PHX"
+  },
+  "Christian Braun": {
+   "pos": "SG",
+   "team": "DEN"
+  },
+  "Brayden Burries": {
+   "pos": "SG",
+   "team": "MIL"
+  },
+  "Kentavious Caldwell-Pope": {
+   "pos": "SG",
+   "team": "PHI"
+  },
+  "Cameron Carr": {
+   "pos": "SG",
+   "team": "LAL"
+  },
+  "Alex Caruso": {
+   "pos": "SG",
+   "team": "OKC"
+  },
+  "Cam Christie": {
+   "pos": "SG",
+   "team": "LAC"
+  },
+  "Max Christie": {
+   "pos": "SG",
+   "team": "DAL"
+  },
+  "Nique Clifford": {
+   "pos": "SG",
+   "team": "SAC"
+  },
+  "Cedric Coward": {
+   "pos": "SG",
+   "team": "MEM"
+  },
+  "Dyson Daniels": {
+   "pos": "SG",
+   "team": "ATL"
+  },
+  "Gradey Dick": {
+   "pos": "SG",
+   "team": "LAC"
+  },
+  "Donte DiVincenzo": {
+   "pos": "SG",
+   "team": "MIN"
+  },
+  "Ayo Dosunmu": {
+   "pos": "SG",
+   "team": "MIN"
+  },
+  "VJ Edgecombe": {
+   "pos": "SG",
+   "team": "PHI"
+  },
+  "Anthony Edwards": {
+   "pos": "SG",
+   "team": "MIN"
+  },
+  "Kyshawn George": {
+   "pos": "SG",
+   "team": "WAS"
+  },
+  "Hugo Gonzalez": {
+   "pos": "SG",
+   "team": "BOS"
+  },
+  "Jalen Green": {
+   "pos": "SG",
+   "team": "PHX"
+  },
+  "Quentin Grimes": {
+   "pos": "SG",
+   "team": "LAL"
+  },
+  "Dylan Harper": {
+   "pos": "SG",
+   "team": "SAS"
+  },
+  "Josh Hart": {
+   "pos": "SG",
+   "team": "NYK"
+  },
+  "Tyler Herro": {
+   "pos": "SG",
+   "team": "MIL"
+  },
+  "Kevin Huerter": {
+   "pos": "SG",
+   "team": "DET"
+  },
+  "Kyrie Irving": {
+   "pos": "SG",
+   "team": "DAL"
+  },
+  "Ty Jerome": {
+   "pos": "SG",
+   "team": "MEM"
+  },
+  "Tre Johnson III": {
+   "pos": "SG",
+   "team": "WAS"
+  },
+  "Luke Kennard": {
+   "pos": "SG",
+   "team": "PHX"
+  },
+  "Pelle Larsson": {
+   "pos": "SG",
+   "team": "MIA"
+  },
+  "Zach LaVine": {
+   "pos": "SG",
+   "team": "SAC"
+  },
+  "Jared McCain": {
+   "pos": "SG",
+   "team": "OKC"
+  },
+  "Sam Merrill": {
+   "pos": "SG",
+   "team": "CLE"
+  },
+  "Donovan Mitchell": {
+   "pos": "SG",
+   "team": "CLE"
+  },
+  "Malik Monk": {
+   "pos": "SG",
+   "team": "SAC"
+  },
+  "Moses Moody": {
+   "pos": "SG",
+   "team": "GSW"
+  },
+  "Andrew Nembhard": {
+   "pos": "SG",
+   "team": "IND"
+  },
+  "Isaac Okoro": {
+   "pos": "SG",
+   "team": "CHI"
+  },
+  "Darryn Peterson": {
+   "pos": "SG",
+   "team": "UTA"
+  },
+  "Brandin Podziemski": {
+   "pos": "SG",
+   "team": "GSW"
+  },
+  "Jordan Poole": {
+   "pos": "SG",
+   "team": "NOP"
+  },
+  "Norman Powell": {
+   "pos": "SG",
+   "team": "CHI"
+  },
+  "Austin Reaves": {
+   "pos": "SG",
+   "team": "LAL"
+  },
+  "Landry Shamet": {
+   "pos": "SG",
+   "team": "NYK"
+  },
+  "Terrence Shannon Jr.": {
+   "pos": "SG",
+   "team": "MIN"
+  },
+  "Shaedon Sharpe": {
+   "pos": "SG",
+   "team": "POR"
+  },
+  "Julian Strawther": {
+   "pos": "SG",
+   "team": "DEN"
+  },
+  "Dailyn Swain": {
+   "pos": "SG",
+   "team": "CHI"
+  },
+  "Meleek Thomas": {
+   "pos": "SG",
+   "team": "CLE"
+  },
+  "Gary Trent Jr.": {
+   "pos": "SG",
+   "team": "MIL"
+  },
+  "Jaylon Tyson": {
+   "pos": "SG",
+   "team": "CLE"
+  },
+  "Devin Vassell": {
+   "pos": "SG",
+   "team": "SAS"
+  },
+  "Keaton Wagler": {
+   "pos": "SG",
+   "team": "LAC"
+  },
+  "Ja'Kobe Walter": {
+   "pos": "SG",
+   "team": "TOR"
+  },
+  "Jaylen Wells": {
+   "pos": "SG",
+   "team": "MEM"
+  },
+  "Coby White": {
+   "pos": "SG",
+   "team": "CHA"
+  },
+  "Derrick White": {
+   "pos": "SG",
+   "team": "BOS"
+  },
+  "Aaron Wiggins": {
+   "pos": "SG",
+   "team": "ATL"
+  },
+  "Jalen Williams": {
+   "pos": "SG",
+   "team": "OKC"
+  },
+  "Nate Ament": {
+   "pos": "SF",
+   "team": "MIL"
+  },
+  "Deni Avdija": {
+   "pos": "SF",
+   "team": "POR"
+  },
+  "Ace Bailey": {
+   "pos": "SF",
+   "team": "UTA"
+  },
+  "RJ Barrett": {
+   "pos": "SF",
+   "team": "TOR"
+  },
+  "Mikal Bridges": {
+   "pos": "SF",
+   "team": "NYK"
+  },
+  "Miles Bridges": {
+   "pos": "SF",
+   "team": "PHX"
+  },
+  "Dillon Brooks": {
+   "pos": "SF",
+   "team": "PHX"
+  },
+  "Jaylen Brown": {
+   "pos": "SF",
+   "team": "PHI"
+  },
+  "Jimmy Butler III": {
+   "pos": "SF",
+   "team": "GSW"
+  },
+  "Matas Buzelis": {
+   "pos": "SF",
+   "team": "CHI"
+  },
+  "Julian Champagnie": {
+   "pos": "SF",
+   "team": "SAS"
+  },
+  "Bilal Coulibaly": {
+   "pos": "SF",
+   "team": "WAS"
+  },
+  "DeMar DeRozan": {
+   "pos": "SF",
+   "team": "DEN"
+  },
+  "AJ Dybantsa": {
+   "pos": "SF",
+   "team": "WAS"
+  },
+  "Cooper Flagg": {
+   "pos": "SF",
+   "team": "DAL"
+  },
+  "Paul George": {
+   "pos": "SF",
+   "team": "BOS"
+  },
+  "LeBron James": {
+   "pos": "SF",
+   "team": "PHI"
+  },
+  "Jaime Jaquez Jr.": {
+   "pos": "SF",
+   "team": "MIL"
+  },
+  "Jalen Johnson": {
+   "pos": "SF",
+   "team": "ATL"
+  },
+  "Keldon Johnson": {
+   "pos": "SF",
+   "team": "SAS"
+  },
+  "Herbert Jones": {
+   "pos": "SF",
+   "team": "NOP"
+  },
+  "Spencer Jones": {
+   "pos": "SF",
+   "team": "DEN"
+  },
+  "Dalton Knecht": {
+   "pos": "SF",
+   "team": "LAL"
+  },
+  "Kon Knueppel": {
+   "pos": "SF",
+   "team": "CHA"
+  },
+  "Kawhi Leonard": {
+   "pos": "SF",
+   "team": "TOR"
+  },
+  "Naji Marshall": {
+   "pos": "SF",
+   "team": "DAL"
+  },
+  "Bennedict Mathurin": {
+   "pos": "SF",
+   "team": "NOP"
+  },
+  "Brandon Miller": {
+   "pos": "SF",
+   "team": "CHA"
+  },
+  "Trey Murphy III": {
+   "pos": "SF",
+   "team": "NOP"
+  },
+  "Aaron Nesmith": {
+   "pos": "SF",
+   "team": "IND"
+  },
+  "Michael Porter Jr.": {
+   "pos": "SF",
+   "team": "BKN"
+  },
+  "Duncan Robinson": {
+   "pos": "SF",
+   "team": "DET"
+  },
+  "Gui Santos": {
+   "pos": "SF",
+   "team": "GSW"
+  },
+  "Brice Sensabaugh": {
+   "pos": "SF",
+   "team": "UTA"
+  },
+  "Amen Thompson": {
+   "pos": "SF",
+   "team": "HOU"
+  },
+  "Ausar Thompson": {
+   "pos": "SF",
+   "team": "DET"
+  },
+  "Klay Thompson": {
+   "pos": "SF",
+   "team": "MIA"
+  },
+  "Franz Wagner": {
+   "pos": "SF",
+   "team": "ORL"
+  },
+  "Peyton Watson": {
+   "pos": "SF",
+   "team": "CLE"
+  },
+  "Andrew Wiggins": {
+   "pos": "SF",
+   "team": "MIA"
+  },
+  "Santi Aldama": {
+   "pos": "PF",
+   "team": "DAL"
+  },
+  "Giannis Antetokounmpo": {
+   "pos": "PF",
+   "team": "MIA"
+  },
+  "OG Anunoby": {
+   "pos": "PF",
+   "team": "NYK"
+  },
+  "Paolo Banchero": {
+   "pos": "PF",
+   "team": "ORL"
+  },
+  "Harrison Barnes": {
+   "pos": "PF",
+   "team": "SAS"
+  },
+  "Scottie Barnes": {
+   "pos": "PF",
+   "team": "TOR"
+  },
+  "Cameron Boozer": {
+   "pos": "PF",
+   "team": "MEM"
+  },
+  "Toumani Camara": {
+   "pos": "PF",
+   "team": "POR"
+  },
+  "Noah Clowney": {
+   "pos": "PF",
+   "team": "BKN"
+  },
+  "John Collins": {
+   "pos": "PF",
+   "team": "DET"
+  },
+  "Anthony Davis": {
+   "pos": "PF",
+   "team": "WAS"
+  },
+  "Kevin Durant": {
+   "pos": "PF",
+   "team": "HOU"
+  },
+  "Aaron Gordon": {
+   "pos": "PF",
+   "team": "DEN"
+  },
+  "Jerami Grant": {
+   "pos": "PF",
+   "team": "MEM"
+  },
+  "Draymond Green": {
+   "pos": "PF",
+   "team": "GSW"
+  },
+  "Rui Hachimura": {
+   "pos": "PF",
+   "team": "LAC"
+  },
+  "Sam Hauser": {
+   "pos": "PF",
+   "team": "BOS"
+  },
+  "GG Jackson II": {
+   "pos": "PF",
+   "team": "MEM"
+  },
+  "Cameron Johnson": {
+   "pos": "PF",
+   "team": "DEN"
+  },
+  "Morez Johnson Jr.": {
+   "pos": "PF",
+   "team": "DAL"
+  },
+  "Jonathan Kuminga": {
+   "pos": "PF",
+   "team": "MIN"
+  },
+  "Kyle Kuzma": {
+   "pos": "PF",
+   "team": "MIL"
+  },
+  "Jake LaRavia": {
+   "pos": "PF",
+   "team": "LAL"
+  },
+  "Yaxel Lendeborg": {
+   "pos": "PF",
+   "team": "GSW"
+  },
+  "Sandro Mamukelashvili": {
+   "pos": "PF",
+   "team": "LAL"
+  },
+  "Lauri Markkanen": {
+   "pos": "PF",
+   "team": "UTA"
+  },
+  "Jaden McDaniels": {
+   "pos": "PF",
+   "team": "MIN"
+  },
+  "Evan Mobley": {
+   "pos": "PF",
+   "team": "CLE"
+  },
+  "Keegan Murray": {
+   "pos": "PF",
+   "team": "SAC"
+  },
+  "Collin Murray-Boyles": {
+   "pos": "PF",
+   "team": "TOR"
+  },
+  "Koa Peat": {
+   "pos": "PF",
+   "team": "PHX"
+  },
+  "Bobby Portis": {
+   "pos": "PF",
+   "team": "MIA"
+  },
+  "Julius Randle": {
+   "pos": "PF",
+   "team": "BKN"
+  },
+  "Maxime Raynaud": {
+   "pos": "PF",
+   "team": "SAC"
+  },
+  "Pascal Siakam": {
+   "pos": "PF",
+   "team": "IND"
+  },
+  "Jabari Smith Jr.": {
+   "pos": "PF",
+   "team": "HOU"
+  },
+  "Jayson Tatum": {
+   "pos": "PF",
+   "team": "BOS"
+  },
+  "Obi Toppin": {
+   "pos": "PF",
+   "team": "IND"
+  },
+  "Dean Wade": {
+   "pos": "PF",
+   "team": "PHI"
+  },
+  "Jarace Walker": {
+   "pos": "PF",
+   "team": "IND"
+  },
+  "P.J. Washington Jr.": {
+   "pos": "PF",
+   "team": "DAL"
+  },
+  "Patrick Williams": {
+   "pos": "PF",
+   "team": "CHI"
+  },
+  "Zion Williamson": {
+   "pos": "PF",
+   "team": "NOP"
+  },
+  "Caleb Wilson": {
+   "pos": "PF",
+   "team": "CHI"
+  },
+  "Steven Adams": {
+   "pos": "C",
+   "team": "HOU"
+  },
+  "Bam Adebayo": {
+   "pos": "C",
+   "team": "MIA"
+  },
+  "Jarrett Allen": {
+   "pos": "C",
+   "team": "CLE"
+  },
+  "Goga Bitadze": {
+   "pos": "C",
+   "team": "ORL"
+  },
+  "Dylan Cardwell": {
+   "pos": "C",
+   "team": "SAC"
+  },
+  "Wendell Carter Jr.": {
+   "pos": "C",
+   "team": "ORL"
+  },
+  "Donovan Clingan": {
+   "pos": "C",
+   "team": "POR"
+  },
+  "Moussa Diabate": {
+   "pos": "C",
+   "team": "CHA"
+  },
+  "Jalen Duren": {
+   "pos": "C",
+   "team": "DET"
+  },
+  "Zach Edey": {
+   "pos": "C",
+   "team": "MEM"
+  },
+  "Joel Embiid": {
+   "pos": "C",
+   "team": "PHI"
+  },
+  "Kyle Filipowski": {
+   "pos": "C",
+   "team": "UTA"
+  },
+  "Daniel Gafford": {
+   "pos": "C",
+   "team": "DAL"
+  },
+  "Rudy Gobert": {
+   "pos": "C",
+   "team": "MIN"
+  },
+  "Isaiah Hartenstein": {
+   "pos": "C",
+   "team": "OKC"
+  },
+  "Chet Holmgren": {
+   "pos": "C",
+   "team": "OKC"
+  },
+  "Jaren Jackson Jr.": {
+   "pos": "C",
+   "team": "UTA"
+  },
+  "Nikola Jokic": {
+   "pos": "C",
+   "team": "DEN"
+  },
+  "Aday Mara": {
+   "pos": "C",
+   "team": "OKC"
+  },
+  "Onyeka Okongwu": {
+   "pos": "C",
+   "team": "ATL"
+  },
+  "Jakob Poeltl": {
+   "pos": "C",
+   "team": "TOR"
+  },
+  "Kristaps Porzingis": {
+   "pos": "C",
+   "team": "GSW"
+  },
+  "Derik Queen": {
+   "pos": "C",
+   "team": "NOP"
+  },
+  "Neemias Queta": {
+   "pos": "C",
+   "team": "BOS"
+  },
+  "Naz Reid": {
+   "pos": "C",
+   "team": "CHA"
+  },
+  "Mitchell Robinson": {
+   "pos": "C",
+   "team": "BOS"
+  },
+  "Domantas Sabonis": {
+   "pos": "C",
+   "team": "SAC"
+  },
+  "Alex Sarr": {
+   "pos": "C",
+   "team": "WAS"
+  },
+  "Alperen Sengun": {
+   "pos": "C",
+   "team": "HOU"
+  },
+  "Day'Ron Sharpe": {
+   "pos": "C",
+   "team": "BKN"
+  },
+  "Isaiah Stewart": {
+   "pos": "C",
+   "team": "MEM"
+  },
+  "Karl-Anthony Towns": {
+   "pos": "C",
+   "team": "NYK"
+  },
+  "Myles Turner": {
+   "pos": "C",
+   "team": "MIL"
+  },
+  "Nikola Vucevic": {
+   "pos": "C",
+   "team": "ORL"
+  },
+  "Moritz Wagner": {
+   "pos": "C",
+   "team": "BKN"
+  },
+  "Victor Wembanyama": {
+   "pos": "C",
+   "team": "SAS"
+  },
+  "Ivica Zubac": {
+   "pos": "C",
+   "team": "IND"
+  },
+  "Nikola Jovic": {
+   "pos": "PF",
+   "team": "MIA"
+  },
+  "Tari Eason": {
+   "pos": "PF",
+   "team": "HOU"
+  },
+  "Bradley Beal": {
+   "pos": "SG",
+   "team": "LAC"
+  },
+  "Brook Lopez": {
+   "pos": "C",
+   "team": "LAC"
+  },
+  "Khaman Maluach": {
+   "pos": "C",
+   "team": "PHX"
+  },
+  "Walker Kessler": {
+   "pos": "C",
+   "team": "LAL"
+  },
+  "Yanic Konan Niederhauser": {
+   "pos": "C",
+   "team": "LAC"
+  }
+ },
+ "counts": {
+  "PG": 49,
+  "SG": 62,
+  "SF": 40,
+  "PF": 46,
+  "C": 41
+ },
+ "total": 238,
+ "no_card_for_position": {
+  "PG": [
+   "DAL",
+   "MEM"
+  ],
+  "SG": [
+   "BKN",
+   "HOU"
+  ],
+  "SF": [
+   "LAC",
+   "MEM",
+   "MIN",
+   "OKC",
+   "SAC"
+  ],
+  "PF": [
+   "ATL",
+   "CHA",
+   "OKC"
+  ],
+  "C": [
+   "CHI"
+  ]
+ }
+}

@@ -1,0 +1,826 @@
+[
+ {
+  "player": "Devin Booker",
+  "pos": "SG",
+  "date": "2026-10-24",
+  "team": "PHX",
+  "opp": "GSW",
+  "score": 152
+ },
+ {
+  "player": "Collin Gillespie",
+  "pos": "PG",
+  "date": "2026-10-24",
+  "team": "PHX",
+  "opp": "GSW",
+  "score": 73
+ },
+ {
+  "player": "Yaxel Lendeborg",
+  "pos": "PF",
+  "date": "2026-10-24",
+  "team": "GSW",
+  "opp": "PHX",
+  "score": 110
+ },
+ {
+  "player": "Yaxel Lendeborg",
+  "pos": "PF",
+  "date": "2026-10-26",
+  "team": "GSW",
+  "opp": "DEN",
+  "score": 114
+ },
+ {
+  "player": "Miles Bridges",
+  "pos": "SF",
+  "date": "2026-10-24",
+  "team": "PHX",
+  "opp": "GSW",
+  "score": 63
+ },
+ {
+  "player": "Dillon Brooks",
+  "pos": "SF",
+  "date": "2026-10-24",
+  "team": "PHX",
+  "opp": "GSW",
+  "score": 50
+ },
+ {
+  "player": "Luke Kennard",
+  "pos": "SG",
+  "date": "2026-10-24",
+  "team": "PHX",
+  "opp": "GSW",
+  "score": 52
+ },
+ {
+  "player": "Jalen Green",
+  "pos": "SG",
+  "date": "2026-10-24",
+  "team": "PHX",
+  "opp": "GSW",
+  "score": 35
+ },
+ {
+  "player": "Jalen Green",
+  "pos": "SG",
+  "date": "2026-10-26",
+  "team": "PHX",
+  "opp": "OKC",
+  "score": 77
+ },
+ {
+  "player": "Luka Doncic",
+  "pos": "PG",
+  "date": "2026-10-25",
+  "team": "LAL",
+  "opp": "UTA",
+  "score": 191
+ },
+ {
+  "player": "Luka Doncic",
+  "pos": "PG",
+  "date": "2026-10-27",
+  "team": "LAL",
+  "opp": "POR",
+  "score": 146
+ },
+ {
+  "player": "Tyrese Haliburton",
+  "pos": "PG",
+  "date": "2026-10-25",
+  "team": "IND",
+  "opp": "BKN",
+  "score": 121
+ },
+ {
+  "player": "Tyrese Haliburton",
+  "pos": "PG",
+  "date": "2026-10-26",
+  "team": "IND",
+  "opp": "MIL",
+  "score": 113
+ },
+ {
+  "player": "Keyonte George",
+  "pos": "PG",
+  "date": "2026-10-25",
+  "team": "UTA",
+  "opp": "LAL",
+  "score": 100
+ },
+ {
+  "player": "Keyonte George",
+  "pos": "PG",
+  "date": "2026-10-26",
+  "team": "UTA",
+  "opp": "MEM",
+  "score": 78
+ },
+ {
+  "player": "Shai Gilgeous-Alexander",
+  "pos": "PG",
+  "date": "2026-10-25",
+  "team": "OKC",
+  "opp": "LAC",
+  "score": 123
+ },
+ {
+  "player": "Cade Cunningham",
+  "pos": "PG",
+  "date": "2026-10-25",
+  "team": "DET",
+  "opp": "PHI",
+  "score": 118
+ },
+ {
+  "player": "Cade Cunningham",
+  "pos": "PG",
+  "date": "2026-10-27",
+  "team": "DET",
+  "opp": "NYK",
+  "score": 91
+ },
+ {
+  "player": "Tyrese Maxey",
+  "pos": "PG",
+  "date": "2026-10-25",
+  "team": "PHI",
+  "opp": "DET",
+  "score": 107
+ },
+ {
+  "player": "Jalen Brunson",
+  "pos": "PG",
+  "date": "2026-10-25",
+  "team": "NYK",
+  "opp": "ORL",
+  "score": 92
+ },
+ {
+  "player": "Jalen Brunson",
+  "pos": "PG",
+  "date": "2026-10-27",
+  "team": "NYK",
+  "opp": "DET",
+  "score": 63
+ },
+ {
+  "player": "Darius Garland",
+  "pos": "PG",
+  "date": "2026-10-25",
+  "team": "LAC",
+  "opp": "OKC",
+  "score": 74
+ },
+ {
+  "player": "Ajay Mitchell",
+  "pos": "PG",
+  "date": "2026-10-25",
+  "team": "OKC",
+  "opp": "LAC",
+  "score": 86
+ },
+ {
+  "player": "Ajay Mitchell",
+  "pos": "PG",
+  "date": "2026-10-26",
+  "team": "OKC",
+  "opp": "PHX",
+  "score": 94
+ },
+ {
+  "player": "Daniss Jenkins",
+  "pos": "PG",
+  "date": "2026-10-25",
+  "team": "DET",
+  "opp": "PHI",
+  "score": 89
+ },
+ {
+  "player": "LaMelo Ball",
+  "pos": "PG",
+  "date": "2026-10-25",
+  "team": "MIN",
+  "opp": "TOR",
+  "score": 77
+ },
+ {
+  "player": "Austin Reaves",
+  "pos": "SG",
+  "date": "2026-10-25",
+  "team": "LAL",
+  "opp": "UTA",
+  "score": 91
+ },
+ {
+  "player": "Austin Reaves",
+  "pos": "SG",
+  "date": "2026-10-27",
+  "team": "LAL",
+  "opp": "POR",
+  "score": 95
+ },
+ {
+  "player": "Anthony Edwards",
+  "pos": "SG",
+  "date": "2026-10-25",
+  "team": "MIN",
+  "opp": "TOR",
+  "score": 64
+ },
+ {
+  "player": "Anthony Edwards",
+  "pos": "SG",
+  "date": "2026-10-26",
+  "team": "MIN",
+  "opp": "CLE",
+  "score": 157
+ },
+ {
+  "player": "Zach LaVine",
+  "pos": "SG",
+  "date": "2026-10-25",
+  "team": "SAC",
+  "opp": "MEM",
+  "score": 122
+ },
+ {
+  "player": "Zach LaVine",
+  "pos": "SG",
+  "date": "2026-10-27",
+  "team": "SAC",
+  "opp": "SAS",
+  "score": 65
+ },
+ {
+  "player": "Ty Jerome",
+  "pos": "SG",
+  "date": "2026-10-25",
+  "team": "MEM",
+  "opp": "SAC",
+  "score": 109
+ },
+ {
+  "player": "Ja'Kobe Walter",
+  "pos": "SG",
+  "date": "2026-10-25",
+  "team": "TOR",
+  "opp": "MIN",
+  "score": 93
+ },
+ {
+  "player": "Cedric Coward",
+  "pos": "SG",
+  "date": "2026-10-25",
+  "team": "MEM",
+  "opp": "SAC",
+  "score": 68
+ },
+ {
+  "player": "Alex Caruso",
+  "pos": "SG",
+  "date": "2026-10-25",
+  "team": "OKC",
+  "opp": "LAC",
+  "score": 85
+ },
+ {
+  "player": "Desmond Bane",
+  "pos": "SG",
+  "date": "2026-10-25",
+  "team": "ORL",
+  "opp": "NYK",
+  "score": 75
+ },
+ {
+  "player": "Franz Wagner",
+  "pos": "SF",
+  "date": "2026-10-25",
+  "team": "ORL",
+  "opp": "NYK",
+  "score": 102
+ },
+ {
+  "player": "Duncan Robinson",
+  "pos": "SF",
+  "date": "2026-10-25",
+  "team": "DET",
+  "opp": "PHI",
+  "score": 64
+ },
+ {
+  "player": "RJ Barrett",
+  "pos": "SF",
+  "date": "2026-10-25",
+  "team": "TOR",
+  "opp": "MIN",
+  "score": 62
+ },
+ {
+  "player": "LeBron James",
+  "pos": "SF",
+  "date": "2026-10-25",
+  "team": "PHI",
+  "opp": "DET",
+  "score": 65
+ },
+ {
+  "player": "Aaron Nesmith",
+  "pos": "SF",
+  "date": "2026-10-25",
+  "team": "IND",
+  "opp": "BKN",
+  "score": 41
+ },
+ {
+  "player": "Lauri Markkanen",
+  "pos": "PF",
+  "date": "2026-10-25",
+  "team": "UTA",
+  "opp": "LAL",
+  "score": 83
+ },
+ {
+  "player": "Pascal Siakam",
+  "pos": "PF",
+  "date": "2026-10-25",
+  "team": "IND",
+  "opp": "BKN",
+  "score": 86
+ },
+ {
+  "player": "Pascal Siakam",
+  "pos": "PF",
+  "date": "2026-10-26",
+  "team": "IND",
+  "opp": "MIL",
+  "score": 87
+ },
+ {
+  "player": "OG Anunoby",
+  "pos": "PF",
+  "date": "2026-10-25",
+  "team": "NYK",
+  "opp": "ORL",
+  "score": 55
+ },
+ {
+  "player": "OG Anunoby",
+  "pos": "PF",
+  "date": "2026-10-27",
+  "team": "NYK",
+  "opp": "DET",
+  "score": 60
+ },
+ {
+  "player": "John Collins",
+  "pos": "PF",
+  "date": "2026-10-25",
+  "team": "DET",
+  "opp": "PHI",
+  "score": 68
+ },
+ {
+  "player": "Jaden McDaniels",
+  "pos": "PF",
+  "date": "2026-10-25",
+  "team": "MIN",
+  "opp": "TOR",
+  "score": 66
+ },
+ {
+  "player": "Cameron Boozer",
+  "pos": "PF",
+  "date": "2026-10-25",
+  "team": "MEM",
+  "opp": "SAC",
+  "score": 68
+ },
+ {
+  "player": "Julius Randle",
+  "pos": "PF",
+  "date": "2026-10-25",
+  "team": "BKN",
+  "opp": "IND",
+  "score": 56
+ },
+ {
+  "player": "Julius Randle",
+  "pos": "PF",
+  "date": "2026-10-27",
+  "team": "BKN",
+  "opp": "BOS",
+  "score": 77
+ },
+ {
+  "player": "Domantas Sabonis",
+  "pos": "C",
+  "date": "2026-10-25",
+  "team": "SAC",
+  "opp": "MEM",
+  "score": 75
+ },
+ {
+  "player": "Domantas Sabonis",
+  "pos": "C",
+  "date": "2026-10-27",
+  "team": "SAC",
+  "opp": "SAS",
+  "score": 108
+ },
+ {
+  "player": "Rudy Gobert",
+  "pos": "C",
+  "date": "2026-10-25",
+  "team": "MIN",
+  "opp": "TOR",
+  "score": 44
+ },
+ {
+  "player": "Rudy Gobert",
+  "pos": "C",
+  "date": "2026-10-26",
+  "team": "MIN",
+  "opp": "CLE",
+  "score": 49
+ },
+ {
+  "player": "Jaren Jackson Jr.",
+  "pos": "C",
+  "date": "2026-10-25",
+  "team": "UTA",
+  "opp": "LAL",
+  "score": 37
+ },
+ {
+  "player": "Isaiah Hartenstein",
+  "pos": "C",
+  "date": "2026-10-25",
+  "team": "OKC",
+  "opp": "LAC",
+  "score": 52
+ },
+ {
+  "player": "Isaiah Hartenstein",
+  "pos": "C",
+  "date": "2026-10-26",
+  "team": "OKC",
+  "opp": "PHX",
+  "score": 73
+ },
+ {
+  "player": "Wendell Carter Jr.",
+  "pos": "C",
+  "date": "2026-10-25",
+  "team": "ORL",
+  "opp": "NYK",
+  "score": 47
+ },
+ {
+  "player": "Brook Lopez",
+  "pos": "C",
+  "date": "2026-10-25",
+  "team": "LAC",
+  "opp": "OKC",
+  "score": 49
+ },
+ {
+  "player": "Isaiah Stewart",
+  "pos": "C",
+  "date": "2026-10-25",
+  "team": "MEM",
+  "opp": "SAC",
+  "score": 54
+ },
+ {
+  "player": "Jamal Murray",
+  "pos": "PG",
+  "date": "2026-10-26",
+  "team": "DEN",
+  "opp": "GSW",
+  "score": 111
+ },
+ {
+  "player": "Payton Pritchard",
+  "pos": "PG",
+  "date": "2026-10-26",
+  "team": "BOS",
+  "opp": "CHI",
+  "score": 110
+ },
+ {
+  "player": "James Harden",
+  "pos": "PG",
+  "date": "2026-10-26",
+  "team": "CLE",
+  "opp": "MIN",
+  "score": 90
+ },
+ {
+  "player": "CJ McCollum",
+  "pos": "PG",
+  "date": "2026-10-26",
+  "team": "ATL",
+  "opp": "HOU",
+  "score": 88
+ },
+ {
+  "player": "Davion Mitchell",
+  "pos": "PG",
+  "date": "2026-10-26",
+  "team": "MIA",
+  "opp": "DAL",
+  "score": 70
+ },
+ {
+  "player": "Donovan Mitchell",
+  "pos": "SG",
+  "date": "2026-10-26",
+  "team": "CLE",
+  "opp": "MIN",
+  "score": 117
+ },
+ {
+  "player": "Tyler Herro",
+  "pos": "SG",
+  "date": "2026-10-26",
+  "team": "MIL",
+  "opp": "IND",
+  "score": 101
+ },
+ {
+  "player": "Brandin Podziemski",
+  "pos": "SG",
+  "date": "2026-10-26",
+  "team": "GSW",
+  "opp": "DEN",
+  "score": 85
+ },
+ {
+  "player": "Norman Powell",
+  "pos": "SG",
+  "date": "2026-10-26",
+  "team": "CHI",
+  "opp": "BOS",
+  "score": 74
+ },
+ {
+  "player": "Cooper Flagg",
+  "pos": "SF",
+  "date": "2026-10-26",
+  "team": "DAL",
+  "opp": "MIA",
+  "score": 163
+ },
+ {
+  "player": "Brandon Miller",
+  "pos": "SF",
+  "date": "2026-10-26",
+  "team": "CHA",
+  "opp": "WAS",
+  "score": 139
+ },
+ {
+  "player": "DeMar DeRozan",
+  "pos": "SF",
+  "date": "2026-10-26",
+  "team": "DEN",
+  "opp": "GSW",
+  "score": 80
+ },
+ {
+  "player": "Peyton Watson",
+  "pos": "SF",
+  "date": "2026-10-26",
+  "team": "CLE",
+  "opp": "MIN",
+  "score": 86
+ },
+ {
+  "player": "Jalen Johnson",
+  "pos": "SF",
+  "date": "2026-10-26",
+  "team": "ATL",
+  "opp": "HOU",
+  "score": 71
+ },
+ {
+  "player": "Giannis Antetokounmpo",
+  "pos": "PF",
+  "date": "2026-10-26",
+  "team": "MIA",
+  "opp": "DAL",
+  "score": 135
+ },
+ {
+  "player": "Kevin Durant",
+  "pos": "PF",
+  "date": "2026-10-26",
+  "team": "HOU",
+  "opp": "ATL",
+  "score": 93
+ },
+ {
+  "player": "Evan Mobley",
+  "pos": "PF",
+  "date": "2026-10-26",
+  "team": "CLE",
+  "opp": "MIN",
+  "score": 78
+ },
+ {
+  "player": "Jabari Smith Jr.",
+  "pos": "PF",
+  "date": "2026-10-26",
+  "team": "HOU",
+  "opp": "ATL",
+  "score": 89
+ },
+ {
+  "player": "Caleb Wilson",
+  "pos": "PF",
+  "date": "2026-10-26",
+  "team": "CHI",
+  "opp": "BOS",
+  "score": 66
+ },
+ {
+  "player": "P.J. Washington Jr.",
+  "pos": "PF",
+  "date": "2026-10-26",
+  "team": "DAL",
+  "opp": "MIA",
+  "score": 85
+ },
+ {
+  "player": "Alperen Sengun",
+  "pos": "C",
+  "date": "2026-10-26",
+  "team": "HOU",
+  "opp": "ATL",
+  "score": 150
+ },
+ {
+  "player": "Moussa Diabate",
+  "pos": "C",
+  "date": "2026-10-26",
+  "team": "CHA",
+  "opp": "WAS",
+  "score": 88
+ },
+ {
+  "player": "Naz Reid",
+  "pos": "C",
+  "date": "2026-10-26",
+  "team": "CHA",
+  "opp": "WAS",
+  "score": 58
+ },
+ {
+  "player": "Jarrett Allen",
+  "pos": "C",
+  "date": "2026-10-26",
+  "team": "CLE",
+  "opp": "MIN",
+  "score": 62
+ },
+ {
+  "player": "Myles Turner",
+  "pos": "C",
+  "date": "2026-10-26",
+  "team": "MIL",
+  "opp": "IND",
+  "score": 65
+ },
+ {
+  "player": "Jrue Holiday",
+  "pos": "PG",
+  "date": "2026-10-27",
+  "team": "POR",
+  "opp": "LAL",
+  "score": 76
+ },
+ {
+  "player": "Ja Morant",
+  "pos": "PG",
+  "date": "2026-10-27",
+  "team": "POR",
+  "opp": "LAL",
+  "score": 68
+ },
+ {
+  "player": "Damian Lillard",
+  "pos": "PG",
+  "date": "2026-10-27",
+  "team": "POR",
+  "opp": "LAL",
+  "score": 63
+ },
+ {
+  "player": "Stephon Castle",
+  "pos": "PG",
+  "date": "2026-10-27",
+  "team": "SAS",
+  "opp": "SAC",
+  "score": 63
+ },
+ {
+  "player": "Nolan Traore",
+  "pos": "PG",
+  "date": "2026-10-27",
+  "team": "BKN",
+  "opp": "BOS",
+  "score": 57
+ },
+ {
+  "player": "Dylan Harper",
+  "pos": "SG",
+  "date": "2026-10-27",
+  "team": "SAS",
+  "opp": "SAC",
+  "score": 77
+ },
+ {
+  "player": "Derrick White",
+  "pos": "SG",
+  "date": "2026-10-27",
+  "team": "BOS",
+  "opp": "BKN",
+  "score": 64
+ },
+ {
+  "player": "Michael Porter Jr.",
+  "pos": "SF",
+  "date": "2026-10-27",
+  "team": "BKN",
+  "opp": "BOS",
+  "score": 106
+ },
+ {
+  "player": "Julian Champagnie",
+  "pos": "SF",
+  "date": "2026-10-27",
+  "team": "SAS",
+  "opp": "SAC",
+  "score": 95
+ },
+ {
+  "player": "Deni Avdija",
+  "pos": "SF",
+  "date": "2026-10-27",
+  "team": "POR",
+  "opp": "LAL",
+  "score": 91
+ },
+ {
+  "player": "Ausar Thompson",
+  "pos": "SF",
+  "date": "2026-10-27",
+  "team": "DET",
+  "opp": "NYK",
+  "score": 42
+ },
+ {
+  "player": "Jayson Tatum",
+  "pos": "PF",
+  "date": "2026-10-27",
+  "team": "BOS",
+  "opp": "BKN",
+  "score": 128
+ },
+ {
+  "player": "Sandro Mamukelashvili",
+  "pos": "PF",
+  "date": "2026-10-27",
+  "team": "LAL",
+  "opp": "POR",
+  "score": 69
+ },
+ {
+  "player": "Victor Wembanyama",
+  "pos": "C",
+  "date": "2026-10-27",
+  "team": "SAS",
+  "opp": "SAC",
+  "score": 149
+ },
+ {
+  "player": "Walker Kessler",
+  "pos": "C",
+  "date": "2026-10-27",
+  "team": "LAL",
+  "opp": "POR",
+  "score": 47
+ },
+ {
+  "player": "Donovan Clingan",
+  "pos": "C",
+  "date": "2026-10-27",
+  "team": "POR",
+  "opp": "LAL",
+  "score": 47
+ }
+]
