@@ -44,7 +44,7 @@ Then run `/starting-five`.
 - `pace.json`: team possessions per game.
 
 ## Limitations
-- Player eligibility comes from one collector's Base Tier 1 cards, so it is not the full Topps checklist.
+- Player eligibility is the standard Topps NBA Collect 26 Base Series 1 (Base Tier 1) card set. Team/position slots with no card stay empty.
 - Projections rest on thin early-season samples, and the matchup weights are priors until enough history exists to fit them.
 - Not affiliated with or endorsed by Topps, Fanatics, the NBA or ESPN.
 
