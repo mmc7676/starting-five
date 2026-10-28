@@ -1,10 +1,21 @@
 {
   "name": "starting-five",
+  "displayName": "NBA Collect Starting 5",
   "version": "1.2.0",
   "description": "NBA Collect Starting 5 Contest: picks the highest expected Topps-scoring player at PG, SG, SF, PF and C for the current NBA slate, using live injuries, headline checks, defense-vs-position, opponent matchups, usage and pace.",
-  "author": { "name": "Mike Cohan (Human0)", "url": "https://github.com/mmc7676" },
+  "author": {
+    "name": "Mike Cohan (Human0)",
+    "url": "https://github.com/mmc7676"
+  },
   "homepage": "https://github.com/mmc7676/starting-five",
   "repository": "https://github.com/mmc7676/starting-five",
   "license": "MIT",
-  "keywords": ["nba", "fantasy", "topps", "basketball", "daily-fantasy", "skills"]
+  "keywords": [
+    "nba",
+    "fantasy",
+    "topps",
+    "basketball",
+    "daily-fantasy",
+    "skills"
+  ]
 }
