@@ -1,4 +1,4 @@
-# /starting-five — NBA Collect Starting 5 Contest
+# /starting-five — NBA Collect Daily Starting 5 Contest Lineup Tool
 
 A Claude skill that picks one player per position (PG, SG, SF, PF, C) for the current NBA slate, choosing the player with the highest expected **Topps NBA Collect "Scoring 2026"** points.
 
