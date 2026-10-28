@@ -4,11 +4,15 @@
 Usage: starting_five.py SCWPOS.json games.json slate.json injuries.json pace.json
   pace.json     : {date: {team: possessions}}  from box-score team_stats
   games.json    : [{"player","pos","date","team","opp","score"}, ...]  Topps rubric score per game
-  slate.json    : [["HOME","AWAY"], ...] games on the slate
+  slate.json    : [["HOME","AWAY",p_home_win], ...] games on the slate (p_home_win optional, 0-1)
   injuries.json : {"Player": {"status": "Out|Day-To-Day", "comment": "..."}}
 
 For every eligible player in every slate game:
-  EV = P(self plays) x base x DvP x opp_matchup x usage x pace
+  EV = P(self plays) x base x DvP x opp_matchup x usage x pace x minutes
+  minutes     = blowout x back-to-back expected-minutes ratio
+                blowout: P(blowout) = 0.05 + 0.60 x ((p_fav - 0.5) / 0.5), p_fav = favorite's win prob;
+                in a blowout starters keep BLOWOUT_MIN_RATIO of their minutes (26/36)
+                back-to-back: team also played the previous date in pace.json -> x B2B_RATIO
   pace        = expected game possessions / possessions in the games that produced base;
                 team pace shrunk toward league pace with K_PACE pseudo-games
   base        = player's mean Topps score
@@ -17,18 +21,21 @@ For every eligible player in every slate game:
   opp_matchup = expectation over whether the opponent's best player at the SAME
                 position plays: P_j x (1 - ALPHA x (s_j - 1)) + (1 - P_j) x 1,
                 s_j = that defender's avg / league avg at the position
-  usage       = 1 + BETA x sum over teammates of (1 - P_k) x avg_k / team-avg total
+  usage       = zero-sum one-ball redistribution: 1 + BETA x vacated x (my share of active team production) / my avg
+  lineup      = top EV per position; teammates are NOT penalized (one player's scoring feeds another's assists)
 ALPHA is fitted on history once there are at least FIT_MIN rows; until then the prior is used.
 """
 import json, sys, re
 from collections import defaultdict
 
 K_DVP, ALPHA_PRIOR, BETA, FIT_MIN, K_PACE = 10, 0.10, 0.15, 150, 5
+BLOWOUT_MIN_RATIO, B2B_RATIO = 26 / 36, 0.95
 pos_f, games_f, slate_f, inj_f, pace_f = sys.argv[1:6]
 PACE = json.load(open(pace_f))
 P = json.load(open(pos_f))['players']
 G = json.load(open(games_f))
 slate = [tuple(g) for g in json.load(open(slate_f))]
+from datetime import date, timedelta
 INJ = json.load(open(inj_f))
 
 def p_play(name):
@@ -72,10 +79,14 @@ def opp_factor(opp, pos, alpha):
     return pj * (1 - alpha * (s - 1)) + (1 - pj), f'{n} s={s:.2f} P={pj}'
 
 def usage(team, me):
-    mates = [(n, avg[n]) for n, v in P.items() if v['team'] == team and n in avg and n != me]
-    tot = sum(a for _, a in mates) + avg.get(me, 0)
-    if tot <= 0: return 1.0
-    return 1 + BETA * sum((1 - p_play(n)[0]) * a for n, a in mates) / tot
+    """One ball: vacated production is redistributed zero-sum, in proportion to each active
+    teammate's own production. Total redistributed = BETA x vacated, never more."""
+    roster = [(n, avg[n], p_play(n)[0]) for n, v in P.items() if v['team'] == team and n in avg]
+    vacated = sum((1 - p) * a for n, a, p in roster if n != me)
+    active = sum(p * a for n, a, p in roster)
+    if active <= 0 or me not in avg: return 1.0
+    my_share = p_play(me)[0] * avg[me] / active
+    return 1 + BETA * vacated * my_share / avg[me]
 
 def fit_alpha():
     """Grid-search ALPHA on history: predict each game from the player's other games."""
@@ -110,8 +121,18 @@ def pace_factor(n, t, o):
     return ((team_pace(t) + team_pace(o)) / 2) / hp
 
 alpha, alpha_src = fit_alpha()
-opp_of = {}
-for h, a in slate: opp_of[h], opp_of[a] = a, h
+opp_of, pwin = {}, {}
+for g in slate:
+    h, a = g[0], g[1]
+    opp_of[h], opp_of[a] = a, h
+    if len(g) > 2 and g[2] is not None: pwin[h], pwin[a] = g[2], 1 - g[2]
+YDAY = max(PACE)
+def minutes_factor(t):
+    pf = max(pwin.get(t, 0.5), 1 - pwin.get(t, 0.5))
+    pb = 0.05 + 0.60 * (pf - 0.5) / 0.5
+    blow = pb * BLOWOUT_MIN_RATIO + (1 - pb)
+    b2b = t in PACE.get(YDAY, {})
+    return blow * (B2B_RATIO if b2b else 1.0), pb, b2b
 rows = defaultdict(list)
 for n, v in P.items():
     t = v['team']
@@ -122,16 +143,18 @@ for n, v in P.items():
     of, odesc = opp_factor(o, v['pos'], alpha)
     us = usage(t, n)
     pf = pace_factor(n, t, o)
-    ev = ps * avg[n] * dv * of * us * pf
+    mf, pb, b2b = minutes_factor(t)
+    ev = ps * avg[n] * dv * of * us * pf * mf
     rows[v['pos']].append((round(ev, 1), n, t, o, round(avg[n], 1), len(by_p[n]), ps, why,
-                           round(dv, 3), dn, round(of, 3), odesc, round(us, 3), round(pf, 3)))
-print(f'ALPHA={alpha} ({alpha_src}); BETA={BETA} prior; K_DVP={K_DVP}; K_PACE={K_PACE}; league pace={lg_pace:.1f}')
-pick = {}
-for pos in ['PG', 'SG', 'SF', 'PF', 'C']:
-    r = sorted(rows.get(pos, []), key=lambda x: (-x[0], x[1]))
-    pick[pos] = r[0][1] if r else None
+                           round(dv, 3), dn, round(of, 3), odesc, round(us, 3), round(pf, 3), round(mf, 3), round(pb, 2), b2b))
+print(f'ALPHA={alpha} ({alpha_src}); BETA={BETA} prior; K_DVP={K_DVP}; K_PACE={K_PACE}; league pace={lg_pace:.1f}; B2B = teams that played {YDAY}')
+POSL = ['PG', 'SG', 'SF', 'PF', 'C']
+top = {pos: sorted(rows.get(pos, []), key=lambda x: (-x[0], x[1]))[:3] for pos in POSL}
+for pos in POSL:
     print(f'\n{pos}:')
-    for e, n, t, o, a, g, ps, why, dv, dn, of, od, us, pf in r[:3]:
+    for e, n, t, o, a, g, ps, why, dv, dn, of, od, us, pf, mf, pb, b2b in top[pos]:
         print(f'  {n} ({t} vs {o}) EV {e} | avg {a}/{g}g x P {ps} [{why}] x DvP {dv} (n={dn}) '
-              f'x opp {of} [{od}] x usage {us} x pace {pf}')
-print('\nPICKS', json.dumps(pick))
+              f'x opp {of} [{od}] x usage {us} x pace {pf} x minutes {mf} [P(blowout)={pb}{", B2B" if b2b else ""}]')
+pick = {p: (top[p][0][1] if top[p] else None) for p in POSL}
+print(f"\nLINEUP EV {sum(top[p][0][0] for p in POSL if top[p]):.1f}")
+print('PICKS', json.dumps(pick))

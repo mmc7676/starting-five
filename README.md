@@ -6,8 +6,8 @@ A Claude skill that picks one player per position (PG, SG, SF, PF, C) for the cu
 1. **Picks the slate automatically.** From 11:00 PM Pacific it uses the next day's games; otherwise it uses today's. It takes no date input and won't run other dates.
 2. **Updates history.** Scores every eligible player from new box scores and records team possessions.
 3. **Pulls live injuries** from ESPN, then runs a **breaking-headline check** on the picks and runners-up.
-4. **Projects every player in every game:**
-   `EV = P(plays) × avg Topps score × defense-vs-position × opponent same-position matchup × teammate usage × pace`
+4. **Projects every player in every game** (blowout and back-to-back minutes included):
+   `EV = P(plays) × avg Topps score × defense-vs-position × opponent same-position matchup × one-ball teammate usage × pace × expected minutes (blowout risk from win probability, back-to-backs)`
 5. **Runs the picker twice** and requires identical output.
 
 ## Scoring rubric
