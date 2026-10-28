@@ -1,0 +1,862 @@
+{
+ "Luka Doncic": {
+  "season": "2025-26",
+  "g": 64,
+  "topps_pg": 129.4
+ },
+ "Shai Gilgeous-Alexander": {
+  "season": "2025-26",
+  "g": 68,
+  "topps_pg": 116.4
+ },
+ "Anthony Edwards": {
+  "season": "2025-26",
+  "g": 61,
+  "topps_pg": 99.5
+ },
+ "Jaylen Brown": {
+  "season": "2025-26",
+  "g": 71,
+  "topps_pg": 98.1
+ },
+ "Tyrese Maxey": {
+  "season": "2025-26",
+  "g": 70,
+  "topps_pg": 111.0
+ },
+ "Kawhi Leonard": {
+  "season": "2025-26",
+  "g": 65,
+  "topps_pg": 103.6
+ },
+ "Donovan Mitchell": {
+  "season": "2025-26",
+  "g": 70,
+  "topps_pg": 102.1
+ },
+ "Nikola Jokic": {
+  "season": "2025-26",
+  "g": 65,
+  "topps_pg": 137.3
+ },
+ "Giannis Antetokounmpo": {
+  "season": "2025-26",
+  "g": 36,
+  "topps_pg": 102.4
+ },
+ "Joel Embiid": {
+  "season": "2025-26",
+  "g": 38,
+  "topps_pg": 94.2
+ },
+ "Lauri Markkanen": {
+  "season": "2025-26",
+  "g": 42,
+  "topps_pg": 89.9
+ },
+ "Stephen Curry": {
+  "season": "2025-26",
+  "g": 43,
+  "topps_pg": 94.5
+ },
+ "Devin Booker": {
+  "season": "2025-26",
+  "g": 64,
+  "topps_pg": 87.6
+ },
+ "Jalen Brunson": {
+  "season": "2025-26",
+  "g": 74,
+  "topps_pg": 93.2
+ },
+ "Kevin Durant": {
+  "season": "2025-26",
+  "g": 78,
+  "topps_pg": 95.3
+ },
+ "Jamal Murray": {
+  "season": "2025-26",
+  "g": 75,
+  "topps_pg": 101.7
+ },
+ "Victor Wembanyama": {
+  "season": "2025-26",
+  "g": 64,
+  "topps_pg": 110.5
+ },
+ "Deni Avdija": {
+  "season": "2025-26",
+  "g": 66,
+  "topps_pg": 91.5
+ },
+ "Michael Porter Jr.": {
+  "season": "2025-26",
+  "g": 52,
+  "topps_pg": 87.2
+ },
+ "Pascal Siakam": {
+  "season": "2025-26",
+  "g": 62,
+  "topps_pg": 84.0
+ },
+ "Cade Cunningham": {
+  "season": "2025-26",
+  "g": 64,
+  "topps_pg": 107.2
+ },
+ "James Harden": {
+  "season": "2025-26",
+  "g": 70,
+  "topps_pg": 96.3
+ },
+ "Keyonte George": {
+  "season": "2025-26",
+  "g": 54,
+  "topps_pg": 86.6
+ },
+ "Austin Reaves": {
+  "season": "2025-26",
+  "g": 51,
+  "topps_pg": 86.0
+ },
+ "Jalen Johnson": {
+  "season": "2025-26",
+  "g": 72,
+  "topps_pg": 105.6
+ },
+ "Paolo Banchero": {
+  "season": "2025-26",
+  "g": 72,
+  "topps_pg": 84.6
+ },
+ "Jayson Tatum": {
+  "season": "2025-26",
+  "g": 16,
+  "topps_pg": 94.2
+ },
+ "Norman Powell": {
+  "season": "2025-26",
+  "g": 58,
+  "topps_pg": 70.0
+ },
+ "Trey Murphy III": {
+  "season": "2025-26",
+  "g": 66,
+  "topps_pg": 84.9
+ },
+ "Julius Randle": {
+  "season": "2025-26",
+  "g": 79,
+  "topps_pg": 79.9
+ },
+ "Cooper Flagg": {
+  "season": "2025-26",
+  "g": 70,
+  "topps_pg": 84.3
+ },
+ "Zion Williamson": {
+  "season": "2025-26",
+  "g": 62,
+  "topps_pg": 72.7
+ },
+ "LeBron James": {
+  "season": "2025-26",
+  "g": 60,
+  "topps_pg": 93.1
+ },
+ "Nickeil Alexander-Walker": {
+  "season": "2025-26",
+  "g": 78,
+  "topps_pg": 77.0
+ },
+ "Shaedon Sharpe": {
+  "season": "2025-26",
+  "g": 50,
+  "topps_pg": 69.2
+ },
+ "Franz Wagner": {
+  "season": "2025-26",
+  "g": 34,
+  "topps_pg": 71.9
+ },
+ "Tyler Herro": {
+  "season": "2025-26",
+  "g": 33,
+  "topps_pg": 76.6
+ },
+ "Anthony Davis": {
+  "season": "2025-26",
+  "g": 20,
+  "topps_pg": 90.3
+ },
+ "Alperen Sengun": {
+  "season": "2025-26",
+  "g": 72,
+  "topps_pg": 90.9
+ },
+ "Dillon Brooks": {
+  "season": "2025-26",
+  "g": 56,
+  "topps_pg": 61.0
+ },
+ "Brandon Miller": {
+  "season": "2025-26",
+  "g": 65,
+  "topps_pg": 72.8
+ },
+ "Bam Adebayo": {
+  "season": "2025-26",
+  "g": 73,
+  "topps_pg": 83.4
+ },
+ "LaMelo Ball": {
+  "season": "2025-26",
+  "g": 72,
+  "topps_pg": 86.8
+ },
+ "Desmond Bane": {
+  "season": "2025-26",
+  "g": 82,
+  "topps_pg": 73.2
+ },
+ "Karl-Anthony Towns": {
+  "season": "2025-26",
+  "g": 75,
+  "topps_pg": 80.9
+ },
+ "Jimmy Butler III": {
+  "season": "2025-26",
+  "g": 38,
+  "topps_pg": 80.6
+ },
+ "Ty Jerome": {
+  "season": "2025-26",
+  "g": 15,
+  "topps_pg": 79.2
+ },
+ "Jalen Duren": {
+  "season": "2025-26",
+  "g": 70,
+  "topps_pg": 76.4
+ },
+ "Ja Morant": {
+  "season": "2025-26",
+  "g": 20,
+  "topps_pg": 79.0
+ },
+ "Jaren Jackson Jr.": {
+  "season": "2025-26",
+  "g": 48,
+  "topps_pg": 70.4
+ },
+ "RJ Barrett": {
+  "season": "2025-26",
+  "g": 57,
+  "topps_pg": 67.5
+ },
+ "Zach LaVine": {
+  "season": "2025-26",
+  "g": 39,
+  "topps_pg": 61.3
+ },
+ "Darius Garland": {
+  "season": "2025-26",
+  "g": 45,
+  "topps_pg": 77.2
+ },
+ "CJ McCollum": {
+  "season": "2025-26",
+  "g": 76,
+  "topps_pg": 69.1
+ },
+ "De'Aaron Fox": {
+  "season": "2025-26",
+  "g": 72,
+  "topps_pg": 78.1
+ },
+ "Jerami Grant": {
+  "season": "2025-26",
+  "g": 57,
+  "topps_pg": 58.6
+ },
+ "Kon Knueppel": {
+  "season": "2025-26",
+  "g": 81,
+  "topps_pg": 70.4
+ },
+ "DeMar DeRozan": {
+  "season": "2025-26",
+  "g": 77,
+  "topps_pg": 67.3
+ },
+ "Amen Thompson": {
+  "season": "2025-26",
+  "g": 79,
+  "topps_pg": 82.6
+ },
+ "Evan Mobley": {
+  "season": "2025-26",
+  "g": 65,
+  "topps_pg": 82.1
+ },
+ "Scottie Barnes": {
+  "season": "2025-26",
+  "g": 80,
+  "topps_pg": 90.2
+ },
+ "Trae Young": {
+  "season": "2025-26",
+  "g": 15,
+  "topps_pg": 73.8
+ },
+ "Jalen Green": {
+  "season": "2025-26",
+  "g": 32,
+  "topps_pg": 61.9
+ },
+ "Bennedict Mathurin": {
+  "season": "2025-26",
+  "g": 54,
+  "topps_pg": 57.1
+ },
+ "Coby White": {
+  "season": "2025-26",
+  "g": 50,
+  "topps_pg": 58.7
+ },
+ "Paul George": {
+  "season": "2025-26",
+  "g": 37,
+  "topps_pg": 73.2
+ },
+ "Ryan Rollins": {
+  "season": "2025-26",
+  "g": 74,
+  "topps_pg": 77.1
+ },
+ "Miles Bridges": {
+  "season": "2025-26",
+  "g": 77,
+  "topps_pg": 66.0
+ },
+ "Chet Holmgren": {
+  "season": "2025-26",
+  "g": 69,
+  "topps_pg": 74.8
+ },
+ "Jalen Williams": {
+  "season": "2025-26",
+  "g": 33,
+  "topps_pg": 72.6
+ },
+ "Josh Giddey": {
+  "season": "2025-26",
+  "g": 54,
+  "topps_pg": 91.5
+ },
+ "Payton Pritchard": {
+  "season": "2025-26",
+  "g": 79,
+  "topps_pg": 72.2
+ },
+ "Andrew Nembhard": {
+  "season": "2025-26",
+  "g": 57,
+  "topps_pg": 74.3
+ },
+ "Kristaps Porzingis": {
+  "season": "2025-26",
+  "g": 32,
+  "topps_pg": 62.5
+ },
+ "OG Anunoby": {
+  "season": "2025-26",
+  "g": 67,
+  "topps_pg": 66.8
+ },
+ "Stephon Castle": {
+  "season": "2025-26",
+  "g": 68,
+  "topps_pg": 73.5
+ },
+ "Dejounte Murray": {
+  "season": "2025-26",
+  "g": 14,
+  "topps_pg": 77.1
+ },
+ "Grayson Allen": {
+  "season": "2025-26",
+  "g": 51,
+  "topps_pg": 64.6
+ },
+ "Derrick White": {
+  "season": "2025-26",
+  "g": 77,
+  "topps_pg": 79.1
+ },
+ "Immanuel Quickley": {
+  "season": "2025-26",
+  "g": 70,
+  "topps_pg": 73.6
+ },
+ "Matas Buzelis": {
+  "season": "2025-26",
+  "g": 77,
+  "topps_pg": 64.0
+ },
+ "Jrue Holiday": {
+  "season": "2025-26",
+  "g": 53,
+  "topps_pg": 74.2
+ },
+ "Alex Sarr": {
+  "season": "2025-26",
+  "g": 48,
+  "topps_pg": 72.9
+ },
+ "Aaron Gordon": {
+  "season": "2025-26",
+  "g": 36,
+  "topps_pg": 61.4
+ },
+ "VJ Edgecombe": {
+  "season": "2025-26",
+  "g": 75,
+  "topps_pg": 69.5
+ },
+ "Domantas Sabonis": {
+  "season": "2025-26",
+  "g": 19,
+  "topps_pg": 71.2
+ },
+ "Jabari Smith Jr.": {
+  "season": "2025-26",
+  "g": 77,
+  "topps_pg": 62.7
+ },
+ "Jarrett Allen": {
+  "season": "2025-26",
+  "g": 56,
+  "topps_pg": 65.3
+ },
+ "Jaime Jaquez Jr.": {
+  "season": "2025-26",
+  "g": 75,
+  "topps_pg": 64.6
+ },
+ "Andrew Wiggins": {
+  "season": "2025-26",
+  "g": 68,
+  "topps_pg": 64.0
+ },
+ "Naji Marshall": {
+  "season": "2025-26",
+  "g": 74,
+  "topps_pg": 58.3
+ },
+ "Onyeka Okongwu": {
+  "season": "2025-26",
+  "g": 74,
+  "topps_pg": 68.3
+ },
+ "Nikola Vucevic": {
+  "season": "2025-26",
+  "g": 64,
+  "topps_pg": 69.7
+ },
+ "Anthony Black": {
+  "season": "2025-26",
+  "g": 64,
+  "topps_pg": 60.7
+ },
+ "Brice Sensabaugh": {
+  "season": "2025-26",
+  "g": 75,
+  "topps_pg": 49.7
+ },
+ "Ayo Dosunmu": {
+  "season": "2025-26",
+  "g": 69,
+  "topps_pg": 59.9
+ },
+ "Kyshawn George": {
+  "season": "2025-26",
+  "g": 48,
+  "topps_pg": 64.3
+ },
+ "Jaden McDaniels": {
+  "season": "2025-26",
+  "g": 73,
+  "topps_pg": 59.2
+ },
+ "Peyton Watson": {
+  "season": "2025-26",
+  "g": 54,
+  "topps_pg": 57.6
+ },
+ "Mikal Bridges": {
+  "season": "2025-26",
+  "g": 82,
+  "topps_pg": 67.1
+ },
+ "Walker Kessler": {
+  "season": "2025-26",
+  "g": 5,
+  "topps_pg": 74.6
+ },
+ "Jeremiah Fears": {
+  "season": "2025-26",
+  "g": 82,
+  "topps_pg": 55.7
+ },
+ "Scoot Henderson": {
+  "season": "2025-26",
+  "g": 30,
+  "topps_pg": 51.4
+ },
+ "P.J. Washington Jr.": {
+  "season": "2025-26",
+  "g": 56,
+  "topps_pg": 59.3
+ },
+ "Ivica Zubac": {
+  "season": "2025-26",
+  "g": 48,
+  "topps_pg": 63.4
+ },
+ "Tre Jones": {
+  "season": "2025-26",
+  "g": 65,
+  "topps_pg": 64.7
+ },
+ "Santi Aldama": {
+  "season": "2025-26",
+  "g": 43,
+  "topps_pg": 63.0
+ },
+ "Keegan Murray": {
+  "season": "2025-26",
+  "g": 23,
+  "topps_pg": 60.3
+ },
+ "Devin Vassell": {
+  "season": "2025-26",
+  "g": 67,
+  "topps_pg": 56.5
+ },
+ "Ace Bailey": {
+  "season": "2025-26",
+  "g": 72,
+  "topps_pg": 51.1
+ },
+ "Aaron Nesmith": {
+  "season": "2025-26",
+  "g": 45,
+  "topps_pg": 47.9
+ },
+ "Brandin Podziemski": {
+  "season": "2025-26",
+  "g": 82,
+  "topps_pg": 60.3
+ },
+ "Jalen Suggs": {
+  "season": "2025-26",
+  "g": 57,
+  "topps_pg": 68.5
+ },
+ "Bobby Portis": {
+  "season": "2025-26",
+  "g": 67,
+  "topps_pg": 54.2
+ },
+ "John Collins": {
+  "season": "2025-26",
+  "g": 69,
+  "topps_pg": 51.1
+ },
+ "Cedric Coward": {
+  "season": "2025-26",
+  "g": 62,
+  "topps_pg": 55.1
+ },
+ "Zach Edey": {
+  "season": "2025-26",
+  "g": 11,
+  "topps_pg": 64.0
+ },
+ "Ajay Mitchell": {
+  "season": "2025-26",
+  "g": 57,
+  "topps_pg": 56.4
+ },
+ "Naz Reid": {
+  "season": "2025-26",
+  "g": 77,
+  "topps_pg": 60.1
+ },
+ "Reed Sheppard": {
+  "season": "2025-26",
+  "g": 82,
+  "topps_pg": 61.5
+ },
+ "Toumani Camara": {
+  "season": "2025-26",
+  "g": 82,
+  "topps_pg": 55.0
+ },
+ "Quentin Grimes": {
+  "season": "2025-26",
+  "g": 75,
+  "topps_pg": 53.0
+ },
+ "Jordan Poole": {
+  "season": "2025-26",
+  "g": 39,
+  "topps_pg": 46.9
+ },
+ "Keldon Johnson": {
+  "season": "2025-26",
+  "g": 82,
+  "topps_pg": 47.7
+ },
+ "Jaylon Tyson": {
+  "season": "2025-26",
+  "g": 66,
+  "topps_pg": 52.7
+ },
+ "Kyle Kuzma": {
+  "season": "2025-26",
+  "g": 69,
+  "topps_pg": 50.9
+ },
+ "Sam Merrill": {
+  "season": "2025-26",
+  "g": 52,
+  "topps_pg": 47.0
+ },
+ "Collin Gillespie": {
+  "season": "2025-26",
+  "g": 80,
+  "topps_pg": 62.3
+ },
+ "GG Jackson II": {
+  "season": "2025-26",
+  "g": 55,
+  "topps_pg": 48.2
+ },
+ "Malik Monk": {
+  "season": "2025-26",
+  "g": 62,
+  "topps_pg": 47.3
+ },
+ "Maxime Raynaud": {
+  "season": "2025-26",
+  "g": 74,
+  "topps_pg": 50.5
+ },
+ "Jaylen Wells": {
+  "season": "2025-26",
+  "g": 69,
+  "topps_pg": 43.3
+ },
+ "Max Christie": {
+  "season": "2025-26",
+  "g": 77,
+  "topps_pg": 46.7
+ },
+ "Noah Clowney": {
+  "season": "2025-26",
+  "g": 66,
+  "topps_pg": 44.7
+ },
+ "Jonathan Kuminga": {
+  "season": "2025-26",
+  "g": 36,
+  "topps_pg": 47.8
+ },
+ "Donte DiVincenzo": {
+  "season": "2025-26",
+  "g": 82,
+  "topps_pg": 58.6
+ },
+ "Cameron Johnson": {
+  "season": "2025-26",
+  "g": 54,
+  "topps_pg": 48.6
+ },
+ "Tre Johnson III": {
+  "season": "2025-26",
+  "g": 60,
+  "topps_pg": 42.5
+ },
+ "Duncan Robinson": {
+  "season": "2025-26",
+  "g": 77,
+  "topps_pg": 46.9
+ },
+ "Donovan Clingan": {
+  "season": "2025-26",
+  "g": 77,
+  "topps_pg": 67.9
+ },
+ "Moses Moody": {
+  "season": "2025-26",
+  "g": 60,
+  "topps_pg": 48.4
+ },
+ "Christian Braun": {
+  "season": "2025-26",
+  "g": 44,
+  "topps_pg": 49.7
+ },
+ "Josh Hart": {
+  "season": "2025-26",
+  "g": 66,
+  "topps_pg": 63.9
+ },
+ "Miles McBride": {
+  "season": "2025-26",
+  "g": 41,
+  "topps_pg": 48.1
+ },
+ "Dyson Daniels": {
+  "season": "2025-26",
+  "g": 76,
+  "topps_pg": 72.5
+ },
+ "Myles Turner": {
+  "season": "2025-26",
+  "g": 71,
+  "topps_pg": 52.5
+ },
+ "Wendell Carter Jr.": {
+  "season": "2025-26",
+  "g": 78,
+  "topps_pg": 50.2
+ },
+ "Dylan Harper": {
+  "season": "2025-26",
+  "g": 69,
+  "topps_pg": 51.7
+ },
+ "Isaiah Collier": {
+  "season": "2025-26",
+  "g": 59,
+  "topps_pg": 60.3
+ },
+ "Bilal Coulibaly": {
+  "season": "2025-26",
+  "g": 56,
+  "topps_pg": 52.7
+ },
+ "Derik Queen": {
+  "season": "2025-26",
+  "g": 81,
+  "topps_pg": 57.2
+ },
+ "Klay Thompson": {
+  "season": "2025-26",
+  "g": 69,
+  "topps_pg": 41.2
+ },
+ "Obi Toppin": {
+  "season": "2025-26",
+  "g": 24,
+  "topps_pg": 46.0
+ },
+ "Jarace Walker": {
+  "season": "2025-26",
+  "g": 76,
+  "topps_pg": 48.6
+ },
+ "Rui Hachimura": {
+  "season": "2025-26",
+  "g": 68,
+  "topps_pg": 40.9
+ },
+ "Kyle Filipowski": {
+  "season": "2025-26",
+  "g": 77,
+  "topps_pg": 51.6
+ },
+ "Pelle Larsson": {
+  "season": "2025-26",
+  "g": 70,
+  "topps_pg": 46.5
+ },
+ "Sandro Mamukelashvili": {
+  "season": "2025-26",
+  "g": 80,
+  "topps_pg": 48.6
+ },
+ "Julian Champagnie": {
+  "season": "2025-26",
+  "g": 82,
+  "topps_pg": 50.1
+ },
+ "Rudy Gobert": {
+  "season": "2025-26",
+  "g": 76,
+  "topps_pg": 60.7
+ },
+ "Dennis Schroder": {
+  "season": "2025-26",
+  "g": 70,
+  "topps_pg": 49.3
+ },
+ "Bub Carrington": {
+  "season": "2025-26",
+  "g": 82,
+  "topps_pg": 48.9
+ },
+ "Jakob Poeltl": {
+  "season": "2025-26",
+  "g": 46,
+  "topps_pg": 50.0
+ },
+ "Tari Eason": {
+  "season": "2025-26",
+  "g": 60,
+  "topps_pg": 48.3
+ },
+ "Egor Demin": {
+  "season": "2025-26",
+  "g": 52,
+  "topps_pg": 46.1
+ },
+ "Neemias Queta": {
+  "season": "2025-26",
+  "g": 76,
+  "topps_pg": 53.7
+ },
+ "Kevin Huerter": {
+  "season": "2025-26",
+  "g": 69,
+  "topps_pg": 45.2
+ },
+ "Isaiah Stewart": {
+  "season": "2025-26",
+  "g": 58,
+  "topps_pg": 42.2
+ },
+ "Harrison Barnes": {
+  "season": "2025-26",
+  "g": 77,
+  "topps_pg": 39.8
+ },
+ "Ausar Thompson": {
+  "season": "2025-26",
+  "g": 73,
+  "topps_pg": 55.7
+ },
+ "Daniel Gafford": {
+  "season": "2025-26",
+  "g": 55,
+  "topps_pg": 46.5
+ },
+ "T.J. McConnell": {
+  "season": "2025-26",
+  "g": 56,
+  "topps_pg": 51.5
+ }
+}

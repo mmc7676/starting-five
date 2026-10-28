@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """NBA Collect Starting 5 Contest picker, v2 with matchup adjustments.
 
-Usage: starting_five.py SCWPOS.json games.json slate.json injuries.json pace.json
+Usage: starting_five.py SCWPOS.json games.json slate.json injuries.json pace.json [prior.json]
+  prior.json    : {player: {season, g, topps_pg}}  last season's per-game Topps baseline (optional)
   pace.json     : {date: {team: possessions}}  from box-score team_stats
   games.json    : [{"player","pos","date","team","opp","score"}, ...]  Topps rubric score per game
   slate.json    : [["HOME","AWAY",p_home_win], ...] games on the slate (p_home_win optional, 0-1)
@@ -15,7 +16,9 @@ For every eligible player in every slate game:
                 back-to-back: team also played the previous date in pace.json -> x B2B_RATIO
   pace        = expected game possessions / possessions in the games that produced base;
                 team pace shrunk toward league pace with K_PACE pseudo-games
-  base        = player's mean Topps score
+  base        = blend of this season's mean and last season's per-game Topps score:
+                (n x current + w x prior) / (n + w), w = K_PRIOR x min(1, prior games / 20);
+                players without a prior regress toward the position mean of last-season priors with K_PRIOR/2 pseudo-games
   DvP         = points the opponent allows to this position vs league average,
                 shrunk toward 1.0 with K_DVP pseudo-games
   opp_matchup = expectation over whether the opponent's best player at the SAME
@@ -30,7 +33,9 @@ from collections import defaultdict
 
 K_DVP, ALPHA_PRIOR, BETA, FIT_MIN, K_PACE = 10, 0.10, 0.15, 150, 5
 BLOWOUT_MIN_RATIO, B2B_RATIO = 26 / 36, 0.95
+K_PRIOR = 8  # pseudo-games of last-season record
 pos_f, games_f, slate_f, inj_f, pace_f = sys.argv[1:6]
+PRIOR = json.load(open(sys.argv[6])) if len(sys.argv) > 6 else {}
 PACE = json.load(open(pace_f))
 P = json.load(open(pos_f))['players']
 G = json.load(open(games_f))
@@ -52,7 +57,27 @@ def p_play(name):
 # player averages and league averages by position
 by_p = defaultdict(list)
 for r in G: by_p[r['player']].append(r['score'])
-avg = {n: sum(s) / len(s) for n, s in by_p.items()}
+cur = {n: sum(s) / len(s) for n, s in by_p.items()}
+_ps = defaultdict(list)
+for r in G: _ps[r['pos']].append(r['score'])
+lg_raw = {p: sum(v) / len(v) for p, v in _ps.items()}
+_pp = defaultdict(list)
+for n, pr in PRIOR.items():
+    if n in P: _pp[P[n]['pos']].append(pr['topps_pg'])
+if _pp: lg_raw = {p: sum(v) / len(v) for p, v in _pp.items()}  # unbiased: all rotation players with a prior
+def blended(n):
+    c, k = cur.get(n), len(by_p.get(n, []))
+    pr = PRIOR.get(n)
+    if not pr:  # no last-season record (rookie/new): regress toward the position's league mean
+        pos = P.get(n, {}).get('pos'); m = lg_raw.get(pos)
+        if c is None or m is None: return c
+        w = K_PRIOR / 2
+        return (k * c + w * m) / (k + w)
+    w = K_PRIOR * min(1.0, pr['g'] / 20)
+    if c is None: return pr['topps_pg']
+    return (k * c + w * pr['topps_pg']) / (k + w)
+avg = {n: blended(n) for n in set(cur) | set(PRIOR)}
+by_p.update({n: [] for n in PRIOR if n not in by_p})
 pos_scores = defaultdict(list)
 for r in G: pos_scores[r['pos']].append(r['score'])
 lg = {p: sum(s) / len(s) for p, s in pos_scores.items()}
@@ -117,7 +142,7 @@ def game_pace(d, a, b):
 hist_pace = defaultdict(list)
 for r in G: hist_pace[r['player']].append(game_pace(r['date'], r['team'], r['opp']))
 def pace_factor(n, t, o):
-    hp = sum(hist_pace[n]) / len(hist_pace[n])
+    hp = sum(hist_pace[n]) / len(hist_pace[n]) if hist_pace[n] else lg_pace
     return ((team_pace(t) + team_pace(o)) / 2) / hp
 
 alpha, alpha_src = fit_alpha()

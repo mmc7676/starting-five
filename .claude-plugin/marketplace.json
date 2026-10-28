@@ -2,6 +2,6 @@
   "name": "human0-marketplace",
   "owner": { "name": "Mike Cohan (Human0)", "url": "https://github.com/mmc7676" },
   "plugins": [
-    { "name": "starting-five", "source": "./", "description": "NBA Collect Starting 5 Contest picker for the current NBA slate.", "version": "1.1.0" }
+    { "name": "starting-five", "source": "./", "description": "NBA Collect Starting 5 Contest picker for the current NBA slate.", "version": "1.2.0" }
   ]
 }
