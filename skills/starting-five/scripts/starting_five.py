@@ -2,6 +2,7 @@
 """NBA Collect Starting 5 Contest picker, v2 with matchup adjustments.
 
 Usage: starting_five.py SCWPOS.json games.json slate.json injuries.json pace.json [prior.json]
+                        [--out=picks/YYYY-MM-DD.json --date=YYYY-MM-DD --version=X.Y.Z --params=params.json]
   prior.json    : {player: {season, g, topps_pg}}  last season's per-game Topps baseline (optional)
   pace.json     : {date: {team: possessions}}  from box-score team_stats
   games.json    : [{"player","pos","date","team","opp","score"}, ...]  Topps rubric score per game
@@ -34,8 +35,14 @@ from collections import defaultdict
 K_DVP, ALPHA_PRIOR, BETA, FIT_MIN, K_PACE = 10, 0.10, 0.15, 150, 5
 BLOWOUT_MIN_RATIO, B2B_RATIO = 26 / 36, 0.95
 K_PRIOR = 8  # pseudo-games of last-season record
-pos_f, games_f, slate_f, inj_f, pace_f = sys.argv[1:6]
-PRIOR = json.load(open(sys.argv[6])) if len(sys.argv) > 6 else {}
+_args = [a for a in sys.argv[1:] if not a.startswith('--')]
+_opts = dict(a[2:].split('=', 1) for a in sys.argv[1:] if a.startswith('--') and '=' in a)
+pos_f, games_f, slate_f, inj_f, pace_f = _args[0:5]
+PRIOR = json.load(open(_args[5])) if len(_args) > 5 else {}
+TUNABLE = {'ALPHA_PRIOR', 'BETA', 'K_DVP', 'K_PACE', 'K_PRIOR', 'BLOWOUT_MIN_RATIO', 'B2B_RATIO'}
+if 'params' in _opts:  # tuned parameters (params.json written by tune.py) override the priors
+    for k, v in json.load(open(_opts['params'])).items():
+        if k in TUNABLE: globals()[k] = v
 PACE = json.load(open(pace_f))
 P = json.load(open(pos_f))['players']
 G = json.load(open(games_f))
@@ -183,3 +190,17 @@ for pos in POSL:
 pick = {p: (top[p][0][1] if top[p] else None) for p in POSL}
 print(f"\nLINEUP EV {sum(top[p][0][0] for p in POSL if top[p]):.1f}")
 print('PICKS', json.dumps(pick))
+if 'out' in _opts:  # write-once model pick record (the model's picks only, never a user's)
+    rec = {'date': _opts.get('date'), 'model_version': _opts.get('version'), 'picks': {}, 'top3': {},
+           'lineup_ev': round(sum(top[p][0][0] for p in POSL if top[p]), 1),
+           'params': {'ALPHA': alpha, 'BETA': BETA, 'K_DVP': K_DVP, 'K_PACE': K_PACE, 'K_PRIOR': K_PRIOR,
+                      'BLOWOUT_MIN_RATIO': round(BLOWOUT_MIN_RATIO, 4), 'B2B_RATIO': B2B_RATIO},
+           'inputs': {'slate': json.load(open(slate_f)), 'injuries': INJ}}
+    keys = ['ev', 'player', 'team', 'opp', 'base', 'games', 'p_play', 'injury', 'dvp', 'dvp_n',
+            'opp_matchup', 'opp_defender', 'usage', 'pace', 'minutes', 'p_blowout', 'b2b']
+    for p in POSL:
+        rows3 = [dict(zip(keys, r)) for r in top[p]]
+        rec['top3'][p] = rows3
+        rec['picks'][p] = rows3[0] if rows3 else None
+    json.dump(rec, open(_opts['out'], 'w'), indent=1)
+    print('WROTE', _opts['out'])

@@ -1,0 +1,654 @@
+{
+ "date": "2026-10-28",
+ "model_version": "1.3.0",
+ "picks": {
+  "PG": {
+   "ev": 119.9,
+   "player": "Shai Gilgeous-Alexander",
+   "team": "OKC",
+   "opp": "DAL",
+   "base": 117.1,
+   "games": 1,
+   "p_play": 0.97,
+   "injury": "not listed",
+   "dvp": 0.977,
+   "dvp_n": 1,
+   "opp_matchup": 1.0,
+   "opp_defender": null,
+   "usage": 1.095,
+   "pace": 1.0,
+   "minutes": 0.986,
+   "p_blowout": 0.05,
+   "b2b": false
+  },
+  "SG": {
+   "ev": 86.0,
+   "player": "Austin Reaves",
+   "team": "LAL",
+   "opp": "LAC",
+   "base": 87.4,
+   "games": 2,
+   "p_play": 0.97,
+   "injury": "not listed",
+   "dvp": 0.996,
+   "dvp_n": 1,
+   "opp_matchup": 1.0,
+   "opp_defender": null,
+   "usage": 1.083,
+   "pace": 1.003,
+   "minutes": 0.937,
+   "p_blowout": 0.05,
+   "b2b": true
+  },
+  "SF": {
+   "ev": 104.4,
+   "player": "Jalen Johnson",
+   "team": "ATL",
+   "opp": "MIA",
+   "base": 101.8,
+   "games": 1,
+   "p_play": 0.97,
+   "injury": "not listed",
+   "dvp": 1.089,
+   "dvp_n": 1,
+   "opp_matchup": 1.022,
+   "opp_defender": "Andrew Wiggins s=0.78 P=0.97",
+   "usage": 1.003,
+   "pace": 0.978,
+   "minutes": 0.969,
+   "p_blowout": 0.11,
+   "b2b": false
+  },
+  "PF": {
+   "ev": 100.7,
+   "player": "Giannis Antetokounmpo",
+   "team": "MIA",
+   "opp": "ATL",
+   "base": 106.0,
+   "games": 1,
+   "p_play": 0.97,
+   "injury": "not listed",
+   "dvp": 1.015,
+   "dvp_n": 2,
+   "opp_matchup": 1.0,
+   "opp_defender": null,
+   "usage": 1.003,
+   "pace": 0.992,
+   "minutes": 0.969,
+   "p_blowout": 0.11,
+   "b2b": false
+  },
+  "C": {
+   "ev": 129.0,
+   "player": "Nikola Jokic",
+   "team": "DEN",
+   "opp": "NOP",
+   "base": 137.3,
+   "games": 0,
+   "p_play": 0.97,
+   "injury": "not listed",
+   "dvp": 1.0,
+   "dvp_n": 0,
+   "opp_matchup": 1.017,
+   "opp_defender": "Derik Queen s=0.82 P=0.97",
+   "usage": 1.014,
+   "pace": 0.997,
+   "minutes": 0.941,
+   "p_blowout": 0.21,
+   "b2b": false
+  }
+ },
+ "top3": {
+  "PG": [
+   {
+    "ev": 119.9,
+    "player": "Shai Gilgeous-Alexander",
+    "team": "OKC",
+    "opp": "DAL",
+    "base": 117.1,
+    "games": 1,
+    "p_play": 0.97,
+    "injury": "not listed",
+    "dvp": 0.977,
+    "dvp_n": 1,
+    "opp_matchup": 1.0,
+    "opp_defender": null,
+    "usage": 1.095,
+    "pace": 1.0,
+    "minutes": 0.986,
+    "p_blowout": 0.05,
+    "b2b": false
+   },
+   {
+    "ev": 107.7,
+    "player": "Tyrese Maxey",
+    "team": "PHI",
+    "opp": "IND",
+    "base": 110.6,
+    "games": 1,
+    "p_play": 0.97,
+    "injury": "not listed",
+    "dvp": 1.0,
+    "dvp_n": 0,
+    "opp_matchup": 1.005,
+    "opp_defender": "Tyrese Haliburton s=0.95 P=0.97",
+    "usage": 1.028,
+    "pace": 1.059,
+    "minutes": 0.918,
+    "p_blowout": 0.29,
+    "b2b": false
+   },
+   {
+    "ev": 103.5,
+    "player": "Stephen Curry",
+    "team": "GSW",
+    "opp": "MIN",
+    "base": 94.5,
+    "games": 0,
+    "p_play": 0.97,
+    "injury": "not listed",
+    "dvp": 0.996,
+    "dvp_n": 1,
+    "opp_matchup": 1.009,
+    "opp_defender": "LaMelo Ball s=0.91 P=0.97",
+    "usage": 1.176,
+    "pace": 1.002,
+    "minutes": 0.954,
+    "p_blowout": 0.17,
+    "b2b": false
+   }
+  ],
+  "SG": [
+   {
+    "ev": 86.0,
+    "player": "Austin Reaves",
+    "team": "LAL",
+    "opp": "LAC",
+    "base": 87.4,
+    "games": 2,
+    "p_play": 0.97,
+    "injury": "not listed",
+    "dvp": 0.996,
+    "dvp_n": 1,
+    "opp_matchup": 1.0,
+    "opp_defender": null,
+    "usage": 1.083,
+    "pace": 1.003,
+    "minutes": 0.937,
+    "p_blowout": 0.05,
+    "b2b": true
+   },
+   {
+    "ev": 84.5,
+    "player": "Donovan Mitchell",
+    "team": "CLE",
+    "opp": "WAS",
+    "base": 103.8,
+    "games": 1,
+    "p_play": 0.97,
+    "injury": "not listed",
+    "dvp": 1.0,
+    "dvp_n": 0,
+    "opp_matchup": 1.027,
+    "opp_defender": "Kyshawn George s=0.73 P=0.97",
+    "usage": 1.004,
+    "pace": 0.913,
+    "minutes": 0.892,
+    "p_blowout": 0.39,
+    "b2b": false
+   },
+   {
+    "ev": 76.3,
+    "player": "Nickeil Alexander-Walker",
+    "team": "ATL",
+    "opp": "MIA",
+    "base": 77.0,
+    "games": 0,
+    "p_play": 0.97,
+    "injury": "not listed",
+    "dvp": 1.0,
+    "dvp_n": 0,
+    "opp_matchup": 1.046,
+    "opp_defender": "Pelle Larsson s=0.53 P=0.97",
+    "usage": 1.004,
+    "pace": 1.003,
+    "minutes": 0.969,
+    "p_blowout": 0.11,
+    "b2b": false
+   }
+  ],
+  "SF": [
+   {
+    "ev": 104.4,
+    "player": "Jalen Johnson",
+    "team": "ATL",
+    "opp": "MIA",
+    "base": 101.8,
+    "games": 1,
+    "p_play": 0.97,
+    "injury": "not listed",
+    "dvp": 1.089,
+    "dvp_n": 1,
+    "opp_matchup": 1.022,
+    "opp_defender": "Andrew Wiggins s=0.78 P=0.97",
+    "usage": 1.003,
+    "pace": 0.978,
+    "minutes": 0.969,
+    "p_blowout": 0.11,
+    "b2b": false
+   },
+   {
+    "ev": 93.4,
+    "player": "Jaylen Brown",
+    "team": "PHI",
+    "opp": "IND",
+    "base": 98.1,
+    "games": 0,
+    "p_play": 0.97,
+    "injury": "not listed",
+    "dvp": 1.0,
+    "dvp_n": 0,
+    "opp_matchup": 1.042,
+    "opp_defender": "Aaron Nesmith s=0.57 P=0.97",
+    "usage": 1.028,
+    "pace": 0.999,
+    "minutes": 0.918,
+    "p_blowout": 0.29,
+    "b2b": false
+   },
+   {
+    "ev": 92.9,
+    "player": "Cooper Flagg",
+    "team": "DAL",
+    "opp": "OKC",
+    "base": 93.0,
+    "games": 1,
+    "p_play": 0.97,
+    "injury": "not listed",
+    "dvp": 1.0,
+    "dvp_n": 0,
+    "opp_matchup": 1.0,
+    "opp_defender": null,
+    "usage": 1.059,
+    "pace": 0.985,
+    "minutes": 0.986,
+    "p_blowout": 0.05,
+    "b2b": false
+   }
+  ],
+  "PF": [
+   {
+    "ev": 100.7,
+    "player": "Giannis Antetokounmpo",
+    "team": "MIA",
+    "opp": "ATL",
+    "base": 106.0,
+    "games": 1,
+    "p_play": 0.97,
+    "injury": "not listed",
+    "dvp": 1.015,
+    "dvp_n": 2,
+    "opp_matchup": 1.0,
+    "opp_defender": null,
+    "usage": 1.003,
+    "pace": 0.992,
+    "minutes": 0.969,
+    "p_blowout": 0.11,
+    "b2b": false
+   },
+   {
+    "ev": 88.7,
+    "player": "Kevin Durant",
+    "team": "HOU",
+    "opp": "MIL",
+    "base": 95.0,
+    "games": 1,
+    "p_play": 0.97,
+    "injury": "not listed",
+    "dvp": 1.004,
+    "dvp_n": 1,
+    "opp_matchup": 1.038,
+    "opp_defender": "Kyle Kuzma s=0.61 P=0.97",
+    "usage": 1.045,
+    "pace": 0.981,
+    "minutes": 0.901,
+    "p_blowout": 0.36,
+    "b2b": false
+   },
+   {
+    "ev": 83.5,
+    "player": "Scottie Barnes",
+    "team": "TOR",
+    "opp": "ORL",
+    "base": 90.2,
+    "games": 0,
+    "p_play": 0.97,
+    "injury": "not listed",
+    "dvp": 0.969,
+    "dvp_n": 1,
+    "opp_matchup": 1.0,
+    "opp_defender": "Paolo Banchero s=1.01 P=0.0",
+    "usage": 1.048,
+    "pace": 0.997,
+    "minutes": 0.943,
+    "p_blowout": 0.2,
+    "b2b": false
+   }
+  ],
+  "C": [
+   {
+    "ev": 129.0,
+    "player": "Nikola Jokic",
+    "team": "DEN",
+    "opp": "NOP",
+    "base": 137.3,
+    "games": 0,
+    "p_play": 0.97,
+    "injury": "not listed",
+    "dvp": 1.0,
+    "dvp_n": 0,
+    "opp_matchup": 1.017,
+    "opp_defender": "Derik Queen s=0.82 P=0.97",
+    "usage": 1.014,
+    "pace": 0.997,
+    "minutes": 0.941,
+    "p_blowout": 0.21,
+    "b2b": false
+   },
+   {
+    "ev": 94.0,
+    "player": "Victor Wembanyama",
+    "team": "SAS",
+    "opp": "UTA",
+    "base": 114.8,
+    "games": 1,
+    "p_play": 0.97,
+    "injury": "not listed",
+    "dvp": 1.0,
+    "dvp_n": 0,
+    "opp_matchup": 1.001,
+    "opp_defender": "Jaren Jackson Jr. s=0.96 P=0.35",
+    "usage": 1.004,
+    "pace": 1.018,
+    "minutes": 0.826,
+    "p_blowout": 0.47,
+    "b2b": true
+   },
+   {
+    "ev": 87.4,
+    "player": "Bam Adebayo",
+    "team": "MIA",
+    "opp": "ATL",
+    "base": 83.4,
+    "games": 0,
+    "p_play": 0.97,
+    "injury": "not listed",
+    "dvp": 1.105,
+    "dvp_n": 1,
+    "opp_matchup": 1.002,
+    "opp_defender": "Onyeka Okongwu s=0.98 P=0.97",
+    "usage": 1.004,
+    "pace": 1.003,
+    "minutes": 0.969,
+    "p_blowout": 0.11,
+    "b2b": false
+   }
+  ]
+ },
+ "lineup_ev": 540.0,
+ "params": {
+  "ALPHA": 0.1,
+  "BETA": 0.15,
+  "K_DVP": 10,
+  "K_PACE": 5,
+  "K_PRIOR": 8,
+  "BLOWOUT_MIN_RATIO": 0.7222,
+  "B2B_RATIO": 0.95
+ },
+ "inputs": {
+  "slate": [
+   [
+    "CLE",
+    "WAS",
+    0.781
+   ],
+   [
+    "ATL",
+    "MIA",
+    0.551
+   ],
+   [
+    "IND",
+    "PHI",
+    0.297
+   ],
+   [
+    "DET",
+    "CHA",
+    0.717
+   ],
+   [
+    "TOR",
+    "ORL",
+    0.629
+   ],
+   [
+    "MIL",
+    "HOU",
+    0.244
+   ],
+   [
+    "CHI",
+    "NYK",
+    0.293
+   ],
+   [
+    "MIN",
+    "GSW",
+    0.597
+   ],
+   [
+    "NOP",
+    "DEN",
+    0.366
+   ],
+   [
+    "UTA",
+    "SAS",
+    0.149
+   ],
+   [
+    "DAL",
+    "OKC",
+    null
+   ],
+   [
+    "LAC",
+    "LAL",
+    null
+   ]
+  ],
+  "injuries": {
+   "Derrick White": {
+    "status": "Day-To-Day",
+    "comment": "listed as probable"
+   },
+   "Coby White": {
+    "status": "Out",
+    "comment": ""
+   },
+   "Kon Knueppel": {
+    "status": "Out",
+    "comment": ""
+   },
+   "Patrick Williams": {
+    "status": "Day-To-Day",
+    "comment": "ruled out for the Celtics game"
+   },
+   "Santi Aldama": {
+    "status": "Out",
+    "comment": ""
+   },
+   "Naji Marshall": {
+    "status": "Day-To-Day",
+    "comment": "ruled out for the Heat game"
+   },
+   "Cameron Johnson": {
+    "status": "Day-To-Day",
+    "comment": "ruled out for the Warriors game"
+   },
+   "Spencer Jones": {
+    "status": "Out",
+    "comment": ""
+   },
+   "Julian Strawther": {
+    "status": "Out",
+    "comment": ""
+   },
+   "Ausar Thompson": {
+    "status": "Day-To-Day",
+    "comment": "fully participated in shootaround"
+   },
+   "Jalen Duren": {
+    "status": "Out",
+    "comment": ""
+   },
+   "Kristaps Porzingis": {
+    "status": "Out",
+    "comment": ""
+   },
+   "Moses Moody": {
+    "status": "Out",
+    "comment": ""
+   },
+   "Jimmy Butler III": {
+    "status": "Out",
+    "comment": ""
+   },
+   "Steven Adams": {
+    "status": "Out",
+    "comment": ""
+   },
+   "Ivica Zubac": {
+    "status": "Day-To-Day",
+    "comment": "no timetable"
+   },
+   "Andrew Nembhard": {
+    "status": "Day-To-Day",
+    "comment": "ruled out for the Bucks game"
+   },
+   "T.J. McConnell": {
+    "status": "Out",
+    "comment": ""
+   },
+   "Bradley Beal": {
+    "status": "Out",
+    "comment": ""
+   },
+   "Yanic Konan Niederhauser": {
+    "status": "Out",
+    "comment": ""
+   },
+   "Donte DiVincenzo": {
+    "status": "Out",
+    "comment": ""
+   },
+   "Jordan Poole": {
+    "status": "Day-To-Day",
+    "comment": "listed as probable"
+   },
+   "Jose Alvarado": {
+    "status": "Out",
+    "comment": ""
+   },
+   "Chet Holmgren": {
+    "status": "Day-To-Day",
+    "comment": "ruled out for the Suns game"
+   },
+   "Alex Caruso": {
+    "status": "Day-To-Day",
+    "comment": "left the Suns game early"
+   },
+   "Jalen Williams": {
+    "status": "Out",
+    "comment": ""
+   },
+   "Jalen Suggs": {
+    "status": "Out",
+    "comment": ""
+   },
+   "Paolo Banchero": {
+    "status": "Out",
+    "comment": ""
+   },
+   "VJ Edgecombe": {
+    "status": "Day-To-Day",
+    "comment": "practiced in full"
+   },
+   "Joel Embiid": {
+    "status": "Day-To-Day",
+    "comment": "ruled out for the Pistons game"
+   },
+   "Scoot Henderson": {
+    "status": "Day-To-Day",
+    "comment": "questionable"
+   },
+   "Shaedon Sharpe": {
+    "status": "Out",
+    "comment": ""
+   },
+   "Dylan Cardwell": {
+    "status": "Out",
+    "comment": ""
+   },
+   "Maxime Raynaud": {
+    "status": "Out",
+    "comment": ""
+   },
+   "Keegan Murray": {
+    "status": "Out",
+    "comment": ""
+   },
+   "Kawhi Leonard": {
+    "status": "Out",
+    "comment": ""
+   },
+   "Lauri Markkanen": {
+    "status": "Day-To-Day",
+    "comment": "did not return to the Grizzlies game"
+   },
+   "Jaren Jackson Jr.": {
+    "status": "Day-To-Day",
+    "comment": "ruled out for the rest of the Grizzlies game"
+   },
+   "AJ Dybantsa": {
+    "status": "Out",
+    "comment": ""
+   },
+   "Anthony Edwards": {
+    "status": "Out",
+    "comment": "Out ~2 months, announced 10/27 evening (reported by Human0)"
+   },
+   "Isaiah Joe": {
+    "status": "Day-To-Day",
+    "comment": "questionable"
+   },
+   "Alperen Sengun": {
+    "status": "Out",
+    "comment": "Back soreness; ruled out vs Bucks (NBC Sports 10/27/2026, headline check)"
+   },
+   "Yaxel Lendeborg": {
+    "status": "Day-To-Day",
+    "comment": "Left foot soreness; questionable, game-time decision (Yahoo 10/27/2026, headline check)"
+   },
+   "Ajay Mitchell": {
+    "status": "Day-To-Day",
+    "comment": "questionable vs Mavericks (Heavy 10/28/2026, headline check)"
+   },
+   "Luka Doncic": {
+    "status": "Out",
+    "comment": "Out tonight vs LAC (reported by Human0, 10/28)"
+   }
+  }
+ }
+}

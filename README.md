@@ -1,6 +1,6 @@
 # /starting-five — NBA Collect Daily Starting 5 Contest Lineup Tool
 
-A Claude skill that picks one player per position (PG, SG, SF, PF, C) for the current NBA slate, choosing the player with the highest expected **Topps NBA Collect "Scoring 2026"** points.
+A universal agent skill (Claude Code plugin, Claude.ai skill, ChatGPT skill) that picks one player per position (PG, SG, SF, PF, C) for the current NBA slate, choosing the player with the highest expected **Topps NBA Collect "Scoring 2026"** points.
 
 ## What it does
 1. **Picks the slate automatically.** From 11:00 PM Pacific it uses the next day's games; otherwise it uses today's. It takes no date input and won't run other dates.
@@ -9,6 +9,7 @@ A Claude skill that picks one player per position (PG, SG, SF, PF, C) for the cu
 4. **Projects every player in every game** (blowout and back-to-back minutes included):
    `EV = P(plays) × (this season blended with last season's per-game Topps score) × defense-vs-position × opponent same-position matchup × one-ball teammate usage × pace × expected minutes (blowout risk from win probability, back-to-backs)`
 5. **Runs the picker twice** and requires identical output.
+6. **Logs the model's picks** (never the user's) to `data/picks/`, scores them the next day into `data/results/`, and back-tunes parameters (`scripts/tune.py`, after 7+ scored days) on actual lineup totals.
 
 ## Scoring rubric
 The rubric matches the totals on Topps cards exactly.
@@ -28,20 +29,29 @@ The rubric matches the totals on Topps cards exactly.
 | PF | −2 |
 
 ## Install
-In Claude Code, run:
-
+**Claude Code (plugin):**
 ```
 /plugin marketplace add mmc7676/starting-five
 /plugin install starting-five@human0-marketplace
 ```
-
 Then run `/starting-five`.
 
-## Data
-`skills/starting-five/data/`:
-- `SCWPOS.json`: eligible players by position.
-- `games.json`: per-game Topps scores starting Oct 24, 2026.
-- `pace.json`: team possessions per game.
+**ChatGPT (Skills, Business/Enterprise/Edu):** download `starting-five-skill.zip` (the `skills/starting-five/` folder zipped), then Plugins > Skills > Create > Upload from your computer. Ask: "run starting-five".
+
+**Claude.ai:** Settings > Capabilities > Skills > upload the same zip.
+
+## Source of truth
+This repo is canonical. Fetched live each run: slate/odds, box scores, injuries, headlines.
+
+| Path | Contents |
+|---|---|
+| `data/SCWPOS.json` | Eligible players by position (Base Tier 1 cards) |
+| `data/prior.json`, `data/raw/` | 2025-26 per-game Topps baseline |
+| `data/games.json`, `data/pace.json` | 2026-27 per-game scores and team possessions |
+| `data/picks/DATE.json` | Model picks with inputs snapshot (write-once) |
+| `data/results/DATE.json` | Model picks vs. actual best lineup |
+| `data/params.json` | Tuned parameters (absent = priors) |
+| `scripts/` | `starting_five.py`, `score_results.py`, `tune.py` |
 
 ## Limitations
 - Player eligibility is the standard Topps NBA Collect 26 Base Series 1 (Base Tier 1) card set. Team/position slots with no card stay empty.
